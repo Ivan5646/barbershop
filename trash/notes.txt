@@ -1,0 +1,21 @@
+Preparation.
+
+Goal - create frontend website for portfolio to get the position of html css developer / frontend developer.
+Standards to meet:
+- css styleguide, критертии оценки верстки (хтмл академии?)
+- BEM
+- align, center content with condition that amount of content can be changed
+
+Questions
+- верстать используя сетку какого-нибудь фреймворка или тоьлко флексы?
+мобильная версия тянется до 768px планшетной, тянется на всю ширину, не надо просчитывать проценты цетровщика
+планшетная до мобильной, на планшетной надо просчитывать 
+десктопная не тянется, что с ней происходит при более широком разрешении? На фрисби весь контент по центру все фоны блоков тянутся.
+- Если испольовать сетку, то как убрать ее классы с html на мобильной и планшетной версии
+- Как подключать стили блоков БЭМ?
+https://ru.bem.info/forum/755/
+
+
+Scope
+
+gulp

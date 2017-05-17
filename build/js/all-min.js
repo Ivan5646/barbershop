@@ -1,0 +1,1 @@
+console.log("hey hey"),alert("helloo"),console.log("hello from test.js");
