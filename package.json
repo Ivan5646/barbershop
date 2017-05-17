@@ -13,6 +13,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-minify": "^1.0.0",
     "gulp-sass": "^3.1.0",
-    "gulp-uglifycss": "^1.0.8"
+    "gulp-uglifycss": "^1.0.8",
+    "gulp-watch": "^4.3.11"
   }
 }
