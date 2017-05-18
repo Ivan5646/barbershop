@@ -1,11 +1,13 @@
 @import "../variables";
 
 .header {
-  background-image: url("../../img/header-bg.png");
+  background-color: #242424;
+  background-image: url("../../img/logo-mobile.svg");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  color: $mycolor;
+  background-size: 70%; //?
+  // background-size: cover;
+  background-position: center top;
+  color: #fff;
 
   ul {
     display: flex;
@@ -22,9 +24,31 @@
       margin-left: auto;
     }
   }
-}
+} // end of .header
 
 
-@media only screen and (min-width: 330px) {
+@media only screen and (min-width: $mobile-width) {
+  .header {
+    background-image: url("../../img/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
 
+    ul {
+      display: flex;
+      list-style-type: none;
+      text-transform: uppercase;
+      margin: 0 auto;
+      max-width: 890px; // not responsive with width prop when decreasing viewport's width
+      li {
+        flex-direction: row;
+        justify-content: center;
+        margin-right: auto;
+      } 
+      li:last-child{
+        margin-left: auto;
+      }
+    }
+  } // end of .header
 }
