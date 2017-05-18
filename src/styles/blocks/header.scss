@@ -1,9 +1,11 @@
+@import "../variables";
+
 .header {
   background-image: url("../../img/header-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  color: #ffffff;
+  color: $mycolor;
 
   ul {
     display: flex;
@@ -20,4 +22,9 @@
       margin-left: auto;
     }
   }
+}
+
+
+@media only screen and (min-width: 330px) {
+
 }

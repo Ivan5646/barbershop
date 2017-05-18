@@ -19,10 +19,10 @@ gulp.task('connect', function() {
 });
 
 gulp.task('app-styles', function() {
-  return gulp.src("src/styles/blocks/*.scss")
+  return gulp.src("src/styles/**/*.scss")
     .pipe(sass().on('error', sass.logError))
     .pipe(uglifycss())
-    .pipe(gulp.dest("build/styles/blocks"))
+    .pipe(gulp.dest("build/styles"))
     .pipe(connect.reload());
 });
 
@@ -39,7 +39,7 @@ gulp.task('watch', function () {
   var appScripts = ['app-scripts'];
   // var index = ['index'];
 
-  gulp.watch('src/styles/blocks/*.scss', appStyles);
+  gulp.watch('src/styles/**/*.scss', appStyles);
   gulp.watch('src/js/*.js', appScripts);
   // gulp.watch('src/index.html', index);
 });

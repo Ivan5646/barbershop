@@ -16,6 +16,12 @@ Questions
 https://ru.bem.info/forum/755/
 
 
+Widths
+mobile 320 - 768px
+tablet 768 - 1200px?
+desktop from 1200px
+
+
 Scope
-- gulp prefixes for browers
+- gulp prefixes for browsers
 
