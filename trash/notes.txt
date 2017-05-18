@@ -1,4 +1,4 @@
-Preparation.
+﻿Preparation.
 
 Goal - create frontend website for portfolio to get the position of html css developer / frontend developer.
 Standards to meet:
@@ -17,5 +17,5 @@ https://ru.bem.info/forum/755/
 
 
 Scope
+- gulp prefixes for browers
 
-gulp

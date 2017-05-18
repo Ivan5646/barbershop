@@ -1,0 +1,20 @@
+.header {
+  background-image: url("../../img/header-bg.png");
+  color: #ffffff;
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    text-transform: uppercase;
+    margin: 0 auto;
+    width: 890px;
+    li {
+      flex-direction: row;
+      justify-content: center;
+      margin-right: auto;
+    } 
+    li:last-child{
+      margin-left: auto;
+    }
+  }
+}

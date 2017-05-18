@@ -1,0 +1,1 @@
+.header{background-image:url("../../img/header-bg.png");color:#fff}.header ul{display:flex;list-style-type:none;text-transform:uppercase;margin:0 auto;width:890px}.header ul li{flex-direction:row;justify-content:center;margin-right:auto}.header ul li:last-child{margin-left:auto}
