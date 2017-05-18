@@ -1,5 +1,8 @@
 .header {
   background-image: url("../../img/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   color: #ffffff;
 
   ul {
@@ -7,7 +10,7 @@
     list-style-type: none;
     text-transform: uppercase;
     margin: 0 auto;
-    width: 890px;
+    max-width: 890px; // not responsive with width prop when decreasing viewport's width
     li {
       flex-direction: row;
       justify-content: center;
