@@ -1,1 +1,1 @@
-console.log("hey hey"),alert("helloo"),console.log("testing gulp watch333"),console.log("hello from test.js");
+$(document).ready(function(){$(".header__hamburger").on("click",function(){$(".header__menu ul").toggle()})}),console.log("hello from test.js");

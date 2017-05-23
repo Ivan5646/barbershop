@@ -1,3 +1,5 @@
-console.log("hey hey");
-alert("helloo");
-console.log("testing gulp watch333");
+$(document).ready(function(){
+  $(".header__hamburger").on("click", function(){
+    $(".header__menu ul").toggle();
+  })
+});
