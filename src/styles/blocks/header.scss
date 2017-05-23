@@ -21,6 +21,7 @@
     p {
     text-transform: uppercase;
     // align-self: center;
+    margin-left: auto;
     }
     .header__hamburger {
       height: 50px;
@@ -29,7 +30,7 @@
       background-repeat: no-repeat;
       background-position: center;
       background-size: 100%;
-      // margin-left: auto;
+      margin-left: auto;
       // align-self: flex-end; // does not do anything 
       // float: right; // does not do anything 
     }
