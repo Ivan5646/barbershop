@@ -1,27 +1,36 @@
 @import "../variables";
 
 .header {
-  background-color: #242424;
-  background-image: url("../../img/logo-mobile.svg");
-  background-repeat: no-repeat;
-  background-size: 70%; //?
-  // background-size: cover;
-  background-position: center top;
   color: #fff;
 
+  .header__mobile-logo {
+    width: 100%;
+    height: 85px;
+    background-color: #242424;
+    background-image: url("../../img/logo-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 70%; //?
+    background-position: center;
+  }
+  .header__strip {
+    background-color: #826550;
+  }
+
   ul {
+    // display: none;
     display: flex;
     list-style-type: none;
     text-transform: uppercase;
     margin: 0 auto;
     max-width: 890px; // not responsive with width prop when decreasing viewport's width
+    flex-direction: column;
     li {
-      flex-direction: row;
+      
       justify-content: center;
       margin-right: auto;
     } 
     li:last-child{
-      margin-left: auto;
+      // margin-left: auto;
     }
   }
 } // end of .header
@@ -41,8 +50,8 @@
       text-transform: uppercase;
       margin: 0 auto;
       max-width: 890px; // not responsive with width prop when decreasing viewport's width
+      flex-direction: row;
       li {
-        flex-direction: row;
         justify-content: center;
         margin-right: auto;
       } 
