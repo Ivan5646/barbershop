@@ -13,9 +13,24 @@
     background-position: center;
   }
   .header__strip {
+    display: flex;
+    flex-direction: row;
     background-color: #826550;
+    margin-top: -16px;
+    justify-content: flex-end;
+    p {
+    text-transform: uppercase;
+    }
+    .header__hamburger {
+      height: 50px;
+      width: 100%;
+      background-image: url("../../img/menu-icon.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 11%;
+      margin-left: auto;
+    }
   }
-
   ul {
     // display: none;
     display: flex;
@@ -24,8 +39,8 @@
     margin: 0 auto;
     max-width: 890px; // not responsive with width prop when decreasing viewport's width
     flex-direction: column;
+    background-color: #826550;
     li {
-      
       justify-content: center;
       margin-right: auto;
     } 
@@ -44,19 +59,26 @@
     background-position: center;
     color: #fff;
 
-    ul {
-      display: flex;
-      list-style-type: none;
-      text-transform: uppercase;
-      margin: 0 auto;
-      max-width: 890px; // not responsive with width prop when decreasing viewport's width
-      flex-direction: row;
-      li {
-        justify-content: center;
-        margin-right: auto;
-      } 
-      li:last-child{
-        margin-left: auto;
+    .header__strip {
+      display: none;
+    }
+    .header__menu {
+      ul {
+        display: flex;
+        justify-content: flex-start;
+        list-style-type: none;
+        text-transform: uppercase;
+        margin: 0 auto;
+        max-width: 890px; // not responsive with width prop when decreasing viewport's width
+        flex-direction: row;
+        background-color: transparent;
+        li {
+          margin-right: auto;
+        } 
+        li:last-child {
+          margin-left: auto;
+          margin-right: 0;
+        }
       }
     }
   } // end of .header

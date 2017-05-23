@@ -22,10 +22,13 @@ tablet 768 - 1200px?
 desktop from 1200px
 
 Problems
+- 
+
+Problems solved
 - body does not stretch to the window width
 https://stackoverflow.com/questions/37626922/the-body-does-not-stretch-100-its-width
 in my case menu is too wide
-- menu goes out of body
+- menu goes out of body. Put flex-direction prop into an item not container
 
 
 Scope
