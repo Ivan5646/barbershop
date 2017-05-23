@@ -22,7 +22,7 @@ tablet 768 - 1200px?
 desktop from 1200px
 
 Problems
-- 
+- justify-content does not do anything
 
 Problems solved
 - body does not stretch to the window width

@@ -2,7 +2,7 @@
 
 .header {
   color: #fff;
-
+  
   .header__mobile-logo {
     width: 100%;
     height: 85px;
@@ -14,26 +14,29 @@
   }
   .header__strip {
     display: flex;
-    flex-direction: row;
+    // flex-direction: column; // default row
     background-color: #826550;
-    margin-top: -16px;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center; // aligns along the cross-axis
     p {
     text-transform: uppercase;
+    // align-self: center;
     }
     .header__hamburger {
       height: 50px;
-      width: 100%;
+      width: 8%;
       background-image: url("../../img/menu-icon.svg");
       background-repeat: no-repeat;
       background-position: center;
-      background-size: 11%;
-      margin-left: auto;
+      background-size: 100%;
+      // margin-left: auto;
+      // align-self: flex-end; // does not do anything 
+      // float: right; // does not do anything 
     }
   }
   ul {
-    // display: none;
-    display: flex;
+    display: none;
+    // display: flex;
     list-style-type: none;
     text-transform: uppercase;
     margin: 0 auto;
