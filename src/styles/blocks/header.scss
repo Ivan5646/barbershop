@@ -36,13 +36,14 @@
     }
     .header__hamburger {
       height: 50px;
-      width: 8%;
+      width: 12%;
       background-image: url("../../img/menu-icon.svg");
       background-repeat: no-repeat;
       background-position: center;
-      background-size: 100%;
+      background-size: 58%;
       background-color: #6a4d38;
       margin-left: auto;
+      padding: 0 2px;
       // align-self: flex-end; // does not do anything 
       // float: right; // does not do anything 
     }
