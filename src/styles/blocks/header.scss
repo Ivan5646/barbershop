@@ -76,6 +76,7 @@
     list-style-type: none;
     text-transform: uppercase;
     // margin: 0 auto;
+    padding: 0;
     margin: 0;
     // max-width: 890px; // not responsive with width prop when decreasing viewport's width
     flex-direction: column;
@@ -91,6 +92,7 @@
       height: 50px;
       line-height: 50px;
       vertical-align: middle;
+      text-indent: 20px;
     } 
     li:last-child{
       // margin-left: auto;
