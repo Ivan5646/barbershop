@@ -2,6 +2,12 @@
 
 .header {
   color: #fff;
+  position: relative;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
   
   .header__mobile-logo {
     width: 100%;
@@ -19,6 +25,7 @@
     background-color: #826550;
     justify-content: center;
     align-items: center; // aligns along the cross-axis
+    height: 50px;
     p {
       position: absolute;
       display: block;
@@ -40,18 +47,49 @@
       // float: right; // does not do anything 
     }
   }
-  ul {
+  .header__menu {
     display: none;
+    position: absolute;
+    top: 85px;
+    right: 0px;
+  }
+  .header__close {
+    background-color: #6a4d38;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    padding: 0 13px;
+    position: absolute;
+    top: 0px;
+    left: -49px;
+  }
+  .header__close:before {
+    content: "\00d7";
+    display: block;
+    color: #ffffff;
+    font-family: Verdana,sans-serif;
+    font-size: 30px;
+  }
+  ul {
     // display: flex;
     list-style-type: none;
     text-transform: uppercase;
-    margin: 0 auto;
+    // margin: 0 auto;
+    margin: 0;
     max-width: 890px; // not responsive with width prop when decreasing viewport's width
     flex-direction: column;
     background-color: #826550;
+    // width: 80%;
+    // float: right;
     li {
       justify-content: center;
       margin-right: auto;
+      border-bottom: 1px solid #71543f;
+      // outline: 1px solid #886e5b;
+      padding: 4px 0;
+      height: 50px;
+      line-height: 50px;
+      vertical-align: middle;
     } 
     li:last-child{
       // margin-left: auto;
