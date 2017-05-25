@@ -10,9 +10,30 @@
     }
   }
   .stats__figures {
-    div p:first-child {
-      text-transform: uppercase;
-      font-weight: bold;
+    color: #fff;
+    div {
+      display: flex;
+
+      p {
+        justify-content: space-around;
+      }
+      p:first-child {
+        text-transform: uppercase;
+        font-weight: bold;
+      }
     }
+    div:first-child {
+      background-color: #404040;
+    }
+    div:nth-child(2) {
+      background-color: #4e4e4e;
+    }
+    div:nth-child(3) {
+      background-color: #353535;
+    }
+    div:last-child {
+      background-color: #404040;
+    }
+
   }
 }
