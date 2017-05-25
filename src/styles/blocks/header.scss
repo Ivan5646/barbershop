@@ -51,57 +51,90 @@
     display: none;
     width: 100%;
     position: absolute;
+    // top: 0;
+    // bottom: 0;
     top: 85px;
+    bottom: 85px;
     left: 50px;
-  }
-  .header__close {
-    background-color: #6a4d38;
-    height: 50px;
-    line-height: 50px;
-    vertical-align: middle;
-    padding: 0 13px;
-    position: absolute;
-    top: 0px;
-    left: -49px;
-  }
-  .header__close:before {
-    content: "\00d7";
-    display: block;
-    color: #ffffff;
-    font-family: Verdana,sans-serif;
-    font-size: 30px;
-  }
-  ul {
-    // display: flex;
-    list-style-type: none;
-    text-transform: uppercase;
-    // margin: 0 auto;
-    padding: 0;
-    margin: 0;
-    // max-width: 890px; // not responsive with width prop when decreasing viewport's width
-    flex-direction: column;
-    background-color: #826550;
-    // width: 80%;
-    // float: right;
-    li {
-      justify-content: center;
-      margin-right: auto;
-      border-bottom: 1px solid #71543f;
-      // outline: 1px solid #886e5b;
-      padding: 4px 0;
-      height: 50px;
-      line-height: 50px;
-      vertical-align: middle;
-      text-indent: 20px;
-    } 
-    li:last-child { 
-      border: 0;
-      background-color: #6a4d38;
-      height: 400px; // adjust later
-      text-transform: none;
-    }
-  }
+    background-color: transparent;
+    // overflow: hidden;
+
+    .header__ul-wrapper {
+      width: 100%;
+      height: inherit;
+      position: absolute;
+      top: 0;
+      left: -50px;
+      background-color: #ffe6e6;
+
+      .header__close {
+        display: block;
+        background-color: #6a4d38;
+        height: 50px;
+        line-height: 50px;
+        vertical-align: middle;
+        padding: 0 13px;
+        position: absolute;
+        top: 0px;
+        // left: -49px;
+      }
+      .header__close:before {
+        content: "\00d7";
+        display: block;
+        color: #ffffff;
+        font-family: Verdana,sans-serif;
+        font-size: 30px;
+      }
+      ul {
+        // display: flex;
+        position: absolute;
+        left: 51px;
+        width: 100%;
+        list-style-type: none;
+        text-transform: uppercase;
+        // margin: 0 auto;
+        padding: 0;
+        margin: 0;
+        // max-width: 890px; // not responsive with width prop when decreasing viewport's width
+        flex-direction: column;
+        background-color: #826550;
+        // width: 80%;
+        // float: right;
+        li {
+          justify-content: center;
+          margin-right: auto;
+          border-bottom: 1px solid #71543f;
+          // outline: 1px solid #886e5b;
+          padding: 4px 0;
+          height: 50px;
+          line-height: 50px;
+          vertical-align: middle;
+          text-indent: 20px;
+        } 
+        li:last-child { 
+          border: 0;
+          background-color: #6a4d38;
+          height: 400px; // adjust later
+          text-transform: none;
+        }
+      } // end of ul 
+    } // end of .header__ul-wrapper
+  } // end of .header__menu
+  
 } // end of .header
+
+.clearfix {
+    display: inline-block;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  // height: 0;
+}
 
 
 @media only screen and (min-width: $mobile-width) {
