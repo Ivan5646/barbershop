@@ -1,0 +1,22 @@
+[class^="icon-"] {
+  text-align: center;
+  &::before {
+      content: "";
+      display: inline-block;
+      // vertical-align: middle;
+      background-size: cover;
+      border: 0;
+      background: none;
+  }
+}
+
+.icon-login {
+  margin-right: 10px;
+  &::before {
+    background-image: url("../img/login.png");
+    background-repeat: no-repeat;
+    // background-size: 21px 14px;
+    width: 21px;
+    height: 14px;
+  }
+}

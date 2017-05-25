@@ -94,8 +94,11 @@
       vertical-align: middle;
       text-indent: 20px;
     } 
-    li:last-child{
-      // margin-left: auto;
+    li:last-child { 
+      border: 0;
+      background-color: #6a4d38;
+      height: 400px; // adjust later
+      text-transform: none;
     }
   }
 } // end of .header
