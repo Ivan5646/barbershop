@@ -13,13 +13,18 @@
     color: #fff;
     div {
       display: flex;
-
+      justify-content: space-between;
       p {
-        justify-content: space-around;
+        margin-left: 4%;
+        margin-right: 4%;
       }
       p:first-child {
         text-transform: uppercase;
         font-weight: bold;
+        text-align: left;
+      }
+      p:last-child {
+        text-align: right;
       }
     }
     div:first-child {
