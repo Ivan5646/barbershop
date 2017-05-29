@@ -20,15 +20,13 @@ h1 {
   margin-top: 20px;
   text-align: center;
   .owl-dot {
-    width: 14px;
-    height: 14px;
-    background-color: #FFF;
+    background-image: url("../../img/dot.png");
+    width: 10px;
+    height: 10px;
     display: inline-block;
-    margin: 0 4px;
-    border-radius: 50%;
-    opacity: .5;
+    margin: 0 16px;
   }
   .owl-dot.active{
-    opacity: .8;
+    background-image: url("../../img/dot-active.png");
   }
 }
