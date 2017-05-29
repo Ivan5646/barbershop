@@ -22,7 +22,27 @@ tablet 768 - 1200px?
 desktop from 1200px
 
 Problems
-- justify-content does not do anything
+- jQuery.Deferred exception: $(...).owlCarousel is not a function
+https://toster.ru/q/341398
+  $.fn.andSelf = function() {
+    return this.addBack.apply(this, arguments);
+  }
+  did not help
+
+  With slick pasting code into index.html helped (with jquery 3 and 1 version)
+  With owl-carousel same thing.
+
+  For some reason no file works from vendors directory changed to name dit to v, same result
+  Ебучий пидорас долбоеб блядина пиздобялдная шлюха долбоебическая <script scr="js/vendors/owl.carousel.min.js"></script>  >> scr <<
+
+  when trying to set some properties inside slick function call
+  events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+TypeError: ←[31m←[4msrc\js\all.js←[24m
+Cannot read property 'replace' of undefined (line: undefined, col: undefined, po
+s: undefined←[39m
+
 
 Problems solved
 - body does not stretch to the window width
@@ -34,3 +54,4 @@ in my case menu is too wide
 Scope
 - gulp prefixes for browsers
 - connect fonts
+- сконфигурировать сборку галпом правильно всех стилей, скриптов, подгружать через нод модули?

@@ -7,6 +7,10 @@ $(document).ready(function(){
     $(".header__menu").toggle();
   })
 
+  // calling the owl-carousel plugin  a
+  $(".owl-carousel").owlCarousel({
+    items: 1
+  });
 
 
 });
