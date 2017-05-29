@@ -1,14 +1,45 @@
 .advertisement {
   background-color: #242424;
   color: #fff;
+  font-size: 16pt;
+  p {
+    text-align: center;
+  }
   .advertisement__slider {
+
+    .slide {
+      .advertisement__text {
+        margin: 0 auto;
+        text-align: center;
+        line-height: 16px;
+        p:first-child {
+          text-transform: uppercase;
+          font-size: 26pt;
+        }
+      }
     
-    .advertisement__scissors {
-      background-image: url("../../img/scissors.png"); // what is wrong with svg?
-      width: 100%;
-      height: 97px;
-      background-repeat: no-repeat;
-      background-position: center;
+
+      .advertisement__scissors {
+        background-image: url("../../img/scissors.png"); // what is wrong with svg?
+        width: 100%;
+        height: 97px;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .advertisement__chair {
+        background-image: url("../../img/chair.png"); // what is wrong with svg?
+        width: 100%;
+        height: 97px;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .advertisement__money {
+        background-image: url("../../img/money.png"); // what is wrong with svg?
+        width: 100%;
+        height: 97px;
+        background-repeat: no-repeat;
+        background-position: center;
+      }      
     }
   }
 
