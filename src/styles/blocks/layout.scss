@@ -15,6 +15,20 @@ h1 {
   border: 0;
 }
 
-.owl-carousel{
-  display: block;
+.owl-dots {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  .owl-dot {
+    width: 14px;
+    height: 14px;
+    background-color: #FFF;
+    display: inline-block;
+    margin: 0 4px;
+    border-radius: 50%;
+    opacity: .5;
+  }
+  .owl-dot.active{
+    opacity: .8;
+  }
 }

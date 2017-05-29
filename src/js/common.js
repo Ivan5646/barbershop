@@ -9,7 +9,8 @@ $(document).ready(function(){
 
   // calling the owl-carousel plugin  a
   $(".owl-carousel").owlCarousel({
-    items: 1
+    items: 1,
+    dotData: true
   });
 
 
