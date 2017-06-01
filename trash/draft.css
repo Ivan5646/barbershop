@@ -1,0 +1,46 @@
+    // &::after {  rotated sqaure
+    //   content: "";
+    //   display: block;
+    //   background-color: red; //#242424;
+    //   transform: rotateZ(45deg);
+    //   width: 100%;
+    //   height: 100%;
+    //   position: absolute;
+    //   z-index: -1;
+    //   bottom: -23px;
+    //   left: 263px;
+    // }
+
+two elements with gradient
+        // &::after {
+    //   content: "";
+    //   display: block;
+    //   width: 50%;
+    //   height: 100px;
+    //   position: absolute;
+    //   bottom: -100px;
+    //   left: 0px;
+    //   // background-color: red;
+    //   // background: linear-gradient(to bottom right, white, red);
+    //   background: linear-gradient(top, rgba(209,39,56,1) 0%,rgba(122,23,38,1) 100%);
+    // }
+    // &::before {
+    //   content: "";
+    //   display: block;
+    //   width: 50%;
+    //   height: 100px;
+    //   position: absolute;
+    //   bottom: -100px;
+    //   right: 0px;
+    //   // background-color: red;
+    //   // background: linear-gradient(to bottom left, white, red);
+    // }
+
+
+
+
+colors
+ad div
+mobile 242424
+tablet 353535
+dekstop 353535
