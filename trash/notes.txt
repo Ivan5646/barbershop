@@ -43,6 +43,12 @@ TypeError: ←[31m←[4msrc\js\all.js←[24m
 Cannot read property 'replace' of undefined (line: undefined, col: undefined, po
 s: undefined←[39m
 
+- css triangle 
+https://stackoverflow.com/questions/25360411/responsive-css-triangle-with-percents-width  the problem is with redundant padding of the main element
+http://jsfiddle.net/x9cxz423/  not responsive
+https://stackoverflow.com/questions/7073484/how-do-css-triangles-work/24808936#24808936  
+https://codepen.io/web-tiki/pen/IjKvp  same padding problrm
+
 
 Problems solved
 - body does not stretch to the window width
