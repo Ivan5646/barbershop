@@ -22,19 +22,25 @@ tablet 768 - 1200px?
 desktop from 1200px
 
 Problems
+
+
+
+Problems solved
+- body does not stretch to the window width
+https://stackoverflow.com/questions/37626922/the-body-does-not-stretch-100-its-width
+in my case menu is too wide
+- menu goes out of body. Put flex-direction prop into an item not container
+
 - jQuery.Deferred exception: $(...).owlCarousel is not a function
 https://toster.ru/q/341398
   $.fn.andSelf = function() {
     return this.addBack.apply(this, arguments);
   }
   did not help
-
   With slick pasting code into index.html helped (with jquery 3 and 1 version)
   With owl-carousel same thing.
-
   For some reason no file works from vendors directory changed to name dit to v, same result
-  Ебучий пидорас долбоеб блядина пиздобялдная шлюха долбоебическая <script scr="js/vendors/owl.carousel.min.js"></script>  >> scr <<
-
+  <script scr="js/vendors/owl.carousel.min.js"></script>  >> scr <<
   when trying to set some properties inside slick function call
   events.js:160
       throw er; // Unhandled 'error' event
@@ -48,13 +54,9 @@ https://stackoverflow.com/questions/25360411/responsive-css-triangle-with-percen
 http://jsfiddle.net/x9cxz423/  not responsive
 https://stackoverflow.com/questions/7073484/how-do-css-triangles-work/24808936#24808936  
 https://codepen.io/web-tiki/pen/IjKvp  same padding problrm
+Solved https://gist.github.com/Ivan5646/c8abf1765a04b99a4842f5ba929c2c03
 
-
-Problems solved
-- body does not stretch to the window width
-https://stackoverflow.com/questions/37626922/the-body-does-not-stretch-100-its-width
-in my case menu is too wide
-- menu goes out of body. Put flex-direction prop into an item not container
+- white space between divs. Solved upper p had margin from user agent, set it to 0.
 
 
 Scope
