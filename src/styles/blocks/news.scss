@@ -9,13 +9,18 @@
         font-size: 26pt;
         text-align: center;  
       }
+      p:first-child {
+        margin-bottom: 10px;
+      }
       .news__block {
         line-height: 22pt;
         p {
           // clear: both;
           // float: right;
-          width: 70%;
+          width: 75%;
           display: inline-block;
+          margin-top: 0;
+          vertical-align: top;
         }
       }
       .news__block1 { // how to select the right way?
@@ -32,6 +37,9 @@
         // flex-direction: column;
         // justify-content: center;
         display: inline-block;
+        margin-right: 20px;
+        vertical-align: top;
+        margin-top: 20px;
         &::after {
           content: "";
           position: absolute;
@@ -55,8 +63,11 @@
           height: 11px;
         }
         p {
-          text-align: center;
+          // text-align: center;
           line-height: 14px;
+          margin: 0 auto;
+          display: block;
+          vertical-align: middle;
         }
       } // end of news date
       button {

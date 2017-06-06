@@ -26,8 +26,9 @@ top slider, distance between lines in paragraphs = 16px
 news, distance between lines in paragraphs = 18px
 
 Problems
-
-
+news section. 
+- p do not extend to the full width
+- 
 
 Problems solved
 - body does not stretch to the window width
