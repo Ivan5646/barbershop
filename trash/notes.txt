@@ -27,8 +27,8 @@ news, distance between lines in paragraphs = 18px
 
 Problems
 news section. 
-- p do not extend to the full width
-- 
+- p do not extend to the full width. Solved Parent container flex.
+- align p inside date div
 
 Problems solved
 - body does not stretch to the window width

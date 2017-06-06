@@ -14,13 +14,13 @@
       }
       .news__block {
         line-height: 22pt;
+        display: flex;
+        align-items: baseline;
         p {
-          // clear: both;
-          // float: right;
-          width: 75%;
-          display: inline-block;
+          // width: 75%;
+          // display: inline-block;
           margin-top: 0;
-          vertical-align: top;
+          // vertical-align: top;
         }
       }
       .news__block1 { // how to select the right way?
@@ -32,14 +32,10 @@
         background-color: #000000;
         color: #fff;
         position: relative;
-        // float: left;
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: center;
-        display: inline-block;
+        // display: inline-block;
         margin-right: 20px;
-        vertical-align: top;
-        margin-top: 20px;
+        // vertical-align: top;
+        // margin-top: 20px;
         &::after {
           content: "";
           position: absolute;
