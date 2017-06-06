@@ -1,14 +1,31 @@
 .news {
   background-color: #f8f5f2;
   font-size: 16pt;
-  > p {
-    text-transform: uppercase;
-    font-size: 26pt;
-    text-align: center;  
-  }
-  .news__block {
-    line-height: 24pt;
-  }
+  .news__wrapper {
+    width: 95%;
+    margin: 0 auto;
+      > p {
+        text-transform: uppercase;
+        font-size: 26pt;
+        text-align: center;  
+      }
+      .news__block {
+        line-height: 22pt;
+      }
+      .news__block1 { // how to select the right way?
+        border-bottom: 1px solid #e5ddd5;
+      }
+      button {
+        margin: 0 auto;
+        display: block;  // specifying this for margin: 0 auto to work
+        width: 100%;
+        height: 50px;
+        background-color: #f8f5f2;
+        border: 1px solid #e5ddd5;
+      }
+  } // end of news wrapper
+
+
 
 
 }

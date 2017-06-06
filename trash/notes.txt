@@ -21,6 +21,10 @@ mobile 320 - 768px
 tablet 768 - 1200px?
 desktop from 1200px
 
+PSD measurements
+top slider, distance between lines in paragraphs = 16px
+news, distance between lines in paragraphs = 18px
+
 Problems
 
 

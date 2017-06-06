@@ -1,1 +1,1 @@
-.news{background-color:#f8f5f2;font-size:16pt}.news>p{text-transform:uppercase;font-size:26pt;text-align:center}.news .news__block{line-height:24pt}
+.news{background-color:#f8f5f2;font-size:16pt}.news .news__wrapper{width:95%;margin:0 auto}.news .news__wrapper>p{text-transform:uppercase;font-size:26pt;text-align:center}.news .news__wrapper .news__block{line-height:22pt}.news .news__wrapper .news__block1{border-bottom:1px solid #e5ddd5}.news .news__wrapper button{margin:0 auto;display:block;width:100%;height:50px;background-color:#f8f5f2;border:1px solid #e5ddd5}
