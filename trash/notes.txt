@@ -29,6 +29,8 @@ Problems
 news section. 
 - p do not extend to the full width. Solved Parent container flex.
 - align p inside date div
+- date div width set to 50px dut displayed 41px
+- when setting justify-content: center; for news__date it affects p which is not child of news__date
 
 Problems solved
 - body does not stretch to the window width
