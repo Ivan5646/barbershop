@@ -7,6 +7,9 @@
     text-transform: uppercase;
     font-size: 26pt;
   }
+  p {
+    font-size: 16pt;
+  }
   .reviews__slider {
     .owl-dots {  
       width: 100%;
@@ -41,6 +44,7 @@
         //overflow: hidden; // to stop go under floated image
         h3 {
           margin: 0 0 20px 0;
+          font-size: 20pt;
         }
         p {
           margin: 0;
