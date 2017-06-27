@@ -1,0 +1,38 @@
+.reviews {
+  color: red;
+  .reviews_slider {
+    .owl-dots {  // does not work
+      width: 100%;
+      margin-top: 20px;
+      text-align: center;
+      .owl-dot {
+        background-image: url("../../img/blackDot.png");
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        margin: 0 16px;
+      }
+      .owl-dot.active{
+        background-image: url("../../img/blackDot-active.png");
+      }
+    }
+  }
+}
+
+// #reviewSlider { // does not work
+//   .owl-dots {  
+//     width: 100%;
+//     margin-top: 20px;
+//     text-align: center;
+//     .owl-dot {
+//       background-image: url("../../img/blackDot.png");
+//       width: 10px;
+//       height: 10px;
+//       display: inline-block;
+//       margin: 0 16px;
+//     }
+//     .owl-dot.active{
+//       background-image: url("../../img/blackDot-active.png");
+//     }
+//   }
+// }

@@ -31,6 +31,8 @@ news section.
 - align p inside date div
 - date div width set to 50px dut displayed 41px
 - when setting justify-content: center; for news__date it affects p which is not child of news__date
+- different width of child elements though css rules are the same using flex
+- wtf, breakpoints are not being stopped at in Chrome dev tools?
 
 Problems solved
 - body does not stretch to the window width
@@ -65,8 +67,13 @@ Solved https://gist.github.com/Ivan5646/c8abf1765a04b99a4842f5ba929c2c03
 
 - white space between divs. Solved upper p had margin from user agent, set it to 0.
 
+- how do I use different dots (carousel slider) for each different case (of many sliders)? The problem was that I did not include css file into index.html
+https://stackoverflow.com/questions/35914241/use-different-css-with-multiple-owl-carousels
+
 
 Scope
 - gulp prefixes for browsers
 - connect fonts
 - сконфигурировать сборку галпом правильно всех стилей, скриптов, подгружать через нод модули?
+
+- fix hr tag causing horizontal scroll (remove the tag)

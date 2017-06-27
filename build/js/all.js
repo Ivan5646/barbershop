@@ -9,9 +9,12 @@ $(document).ready(function(){
 
   // calling the owl-carousel plugin  a
   $(".owl-carousel").owlCarousel({
-    items: 1
+    items: 1,
+    dotData: true
+    // nav: true
   });
 
-
+  var activeDot = $(".reviews_slider .owl-dots .owl-dot .owl-dot.active");
+  console.log(activeDot + " active dot");
 });
 console.log("hello from test.js");

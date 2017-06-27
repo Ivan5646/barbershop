@@ -11,7 +11,9 @@ $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
     items: 1,
     dotData: true
+    // nav: true
   });
 
-
+  var activeDot = $(".reviews_slider .owl-dots .owl-dot .owl-dot.active");
+  console.log(activeDot + " active dot");
 });
