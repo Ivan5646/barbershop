@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".header__hamburger").on("click",function(){$(".header__menu").toggle()}),$(".header__close").on("click",function(){$(".header__menu").toggle()}),$(".owl-carousel").owlCarousel({items:1})}),console.log("hello from test.js");
+$(document).ready(function(){$(".header__hamburger").on("click",function(){$(".header__menu").toggle()}),$(".header__close").on("click",function(){$(".header__menu").toggle()}),$(".owl-carousel").owlCarousel({items:1,dotData:!0})}),console.log("hello from test.js");
