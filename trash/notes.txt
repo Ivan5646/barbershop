@@ -31,6 +31,7 @@ news section.
 - align p inside date div
 - date div width set to 50px dut displayed 41px
 - when setting justify-content: center; for news__date it affects p which is not child of news__date
+- wtf with push vanishing after branching?
 
 Problems solved
 - body does not stretch to the window width
