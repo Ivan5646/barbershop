@@ -1,4 +1,6 @@
 .reviews {
+  position: relative;
+  background-color: #f8f5f2;
   > h2 {
     margin: 30px auto 36px; // taken from psd
     text-align: center;
@@ -46,5 +48,28 @@
       }
     }
   } // reviews__slider
+
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: -37px;
+    left: 0px;
+    background-color: #242424;
+    background: linear-gradient(to bottom left, #f8f5f2, #f8f5f3 50%,  transparent 51%);
+    z-index: -1;
+    width: 50%;
+    height: 37px;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -37px;
+    right: 0px;
+    background-color: #242424;
+    background: linear-gradient(to bottom right, #f8f5f2, #f8f5f3 50%,  transparent 51%);
+    z-index: -1;
+    width: 50%;
+    height: 37px;
+  }
 }
 
