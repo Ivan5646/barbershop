@@ -1,6 +1,6 @@
 .reviews {
-  > p {
-    margin: 0 auto;
+  > h2 {
+    margin: 30px auto 36px; // taken from psd
     text-align: center;
     text-transform: uppercase;
     font-size: 26pt;
@@ -21,20 +21,31 @@
         background-image: url("../../img/blackDot-active.png");
       }
     }
-    .reviews__reviewer {
-      background-image: url("../../img/travis.png");
-      width: 48px;
-      height: 46px;
-      //background-position: center; 
-      background-size: contain;
-      background-repeat: no-repeat;
-      float: left;
-      margin-right: 8px;
-    }
-    .reviews__text {
-      overflow: hidden; // to stop go under floated image
-      p {
-        margin: 0;
+    .reviews__slide {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      .reviews__reviewer {
+        background-image: url("../../img/travis.png");
+        width: 48px;
+        height: 46px;
+        //background-position: center; 
+        background-size: contain;
+        background-repeat: no-repeat;
+        // float: left;
+        // margin-right: 8px;
+        flex-shrink: 0;
+        align-self: baseline;
+        margin-right: 20px;
+      }
+      .reviews__text {
+        //overflow: hidden; // to stop go under floated image
+        h3 {
+          margin: 0 0 20px 0;
+        }
+        p {
+          margin: 0;
+        }
       }
     }
   } // reviews__slider

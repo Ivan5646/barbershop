@@ -32,6 +32,7 @@ news section.
 - date div width set to 50px dut displayed 41px
 - when setting justify-content: center; for news__date it affects p which is not child of news__date
 - wtf with push vanishing after branching?
+- flex align items flex start does not align. Image flex-shrink:0
 
 Problems solved
 - body does not stretch to the window width
@@ -71,3 +72,7 @@ Scope
 - gulp prefixes for browsers
 - connect fonts
 - сконфигурировать сборку галпом правильно всех стилей, скриптов, подгружать через нод модули?
+- horizontal divider
+- tidy up h tags 
+- include fonts
+- fix date flags 
