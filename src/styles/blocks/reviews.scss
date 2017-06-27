@@ -1,79 +1,83 @@
 .reviews {
   position: relative;
   background-color: #f8f5f2;
-  > h2 {
-    margin: 30px auto 36px; // taken from psd
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 26pt;
-  }
-  p {
-    font-size: 16pt;
-  }
-  .reviews__slider {
-    .owl-dots {  
-      width: 100%;
-      margin-top: 20px;
+  .reviews__wrapper {
+    width: 95%;
+    margin: 0 auto;
+    > h2 {
+      margin: 30px auto 36px; // taken from psd
       text-align: center;
-      .owl-dot {
-        background-image: url("../../img/blackDot.png");
-        width: 10px;
-        height: 10px;
-        display: inline-block;
-        margin: 0 16px;
-      }
-      .owl-dot.active {
-        background-image: url("../../img/blackDot-active.png");
-      }
+      text-transform: uppercase;
+      font-size: 26pt;
     }
-    .reviews__slide {
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      .reviews__reviewer {
-        background-image: url("../../img/travis.png");
-        width: 48px;
-        height: 46px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        flex-shrink: 0;
-        margin-right: 20px;
-        margin-top: 8px;
-      }
-      .reviews__text {
-        //overflow: hidden; // to stop go under floated image
-        h3 {
-          margin: 0 0 20px 0;
-          font-size: 20pt;
+    p {
+      font-size: 16pt;
+    }
+    .reviews__slider {
+      .owl-dots {  
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+        .owl-dot {
+          background-image: url("../../img/blackDot.png");
+          width: 10px;
+          height: 10px;
+          display: inline-block;
+          margin: 0 16px;
         }
-        p {
-          margin: 0;
+        .owl-dot.active {
+          background-image: url("../../img/blackDot-active.png");
         }
       }
-    }
-  } // reviews__slider
+      .reviews__slide {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        .reviews__reviewer {
+          background-image: url("../../img/travis.png");
+          width: 48px;
+          height: 46px;
+          background-size: contain;
+          background-repeat: no-repeat;
+          flex-shrink: 0;
+          margin-right: 20px;
+          margin-top: 8px;
+        }
+        .reviews__text {
+          //overflow: hidden; // to stop go under floated image
+          h3 {
+            margin: 0 0 20px 0;
+            font-size: 20pt;
+          }
+          p {
+            margin: 0;
+          }
+        }
+      }
+    } // reviews__slider
 
-  &:after {
-    content: "";
-    position: absolute;
-    bottom: -37px;
-    left: 0px;
-    background-color: #242424;
-    background: linear-gradient(to bottom left, #f8f5f2, #f8f5f3 50%,  transparent 51%);
-    z-index: -1;
-    width: 50%;
-    height: 37px;
-  }
-  &::before {
-    content: "";
-    position: absolute;
-    bottom: -37px;
-    right: 0px;
-    background-color: #242424;
-    background: linear-gradient(to bottom right, #f8f5f2, #f8f5f3 50%,  transparent 51%);
-    z-index: -1;
-    width: 50%;
-    height: 37px;
-  }
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: -37px;
+      left: 0px;
+      background-color: #242424;
+      background: linear-gradient(to bottom left, #f8f5f2, #f8f5f3 50%,  transparent 51%);
+      z-index: -1;
+      width: 50%;
+      height: 37px;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: -37px;
+      right: 0px;
+      background-color: #242424;
+      background: linear-gradient(to bottom right, #f8f5f2, #f8f5f3 50%,  transparent 51%);
+      z-index: -1;
+      width: 50%;
+      height: 37px;
+    }
+  } // .reviews__wrapper
 }
 
