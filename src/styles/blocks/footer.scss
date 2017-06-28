@@ -1,4 +1,47 @@
 .footer {
   background-color: #292929;
   color: #fff;
+  .footer__wrapper {
+    margin: 37px 1px 1px 1px;
+    border: 1px solid #fff; //rgba(255, 255, 255, 0.3); //rgba(62, 62, 62, 0.3); //#3e3e3e red;
+    .footer__address {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      p {
+        width: 80%;
+        text-align: center;
+      }
+      p:last-child {
+        width: 90%;
+      }
+    }
+    .footer__social { 
+      a {
+        color: #fff;
+        background-repeat: no-repeat;
+        display: inline-block;
+        margin: 4%;
+      }
+      .footer__vk {
+        // color: #fff;
+        background-image: url("../../img/vk-mob.png");
+        // background-repeat: no-repeat;
+        background-size: 100%;
+        width: 23px;
+        height: 26px;
+        // display: block;
+      }
+      .footer__fb {
+        background-image: url("../../img/fb.png");
+        width: 18px;
+        height: 39px;
+      }
+      .footer__inst {
+        background-image: url("../../img/inst.png");
+        width: 36px;
+        height: 36px;
+      }
+    }
+  } // .footer__wrapper
 }
