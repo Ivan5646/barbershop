@@ -72,7 +72,9 @@ Scope
 - gulp prefixes for browsers
 - connect fonts
 - сконфигурировать сборку галпом правильно всех стилей, скриптов, подгружать через нод модули?
-- horizontal divider
 - tidy up h tags 
 - include fonts
 - fix date flags 
+
+Scope, done
+- horizontal divider
