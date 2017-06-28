@@ -2,18 +2,25 @@
   background-color: #292929;
   color: #fff;
   .footer__wrapper {
-    margin: 37px 1px 1px 1px;
+    margin: 37px 1px 1px 1px; // ?
     border: 1px solid #fff; //rgba(255, 255, 255, 0.3); //rgba(62, 62, 62, 0.3); //#3e3e3e red;
     .footer__address {
       display: flex;
       flex-direction: column;
       align-items: center;
-      p {
+      // h4 {
+      //   font-size: 14pt;
+      // }
+      p, h4 {
         width: 80%;
         text-align: center;
+        font-size: 14pt;
       }
       p:last-child {
         width: 90%;
+        border: 1px solid #fff;
+        padding-top: 6px;
+        padding-bottom: 6px;
       }
     }
     .footer__social { 
