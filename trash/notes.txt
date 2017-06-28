@@ -32,7 +32,9 @@ news section.
 - date div width set to 50px dut displayed 41px
 - when setting justify-content: center; for news__date it affects p which is not child of news__date
 - wtf with push vanishing after branching?
-- flex align items flex start does not align. Image flex-shrink:0
+-  border rgba(255, 255, 255, 0.3); is not dispayed in a child div. z-index does not help, the border is there but cannot be seen
+https://stackoverflow.com/questions/18577856/rgba-border-transparency-not-visible-with-background-colour ?
+https://css-tricks.com/transparent-borders-with-background-clip/  the answer why this is happening
 
 Problems solved
 - body does not stretch to the window width
@@ -64,8 +66,8 @@ http://jsfiddle.net/x9cxz423/  not responsive
 https://stackoverflow.com/questions/7073484/how-do-css-triangles-work/24808936#24808936  
 https://codepen.io/web-tiki/pen/IjKvp  same padding problrm
 Solved https://gist.github.com/Ivan5646/c8abf1765a04b99a4842f5ba929c2c03
-
 - white space between divs. Solved upper p had margin from user agent, set it to 0.
+- flex align items flex start does not align. Image flex-shrink:0
 
 
 Scope

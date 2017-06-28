@@ -3,14 +3,14 @@
   color: #fff;
   .footer__wrapper {
     margin: 37px 1px 1px 1px; // ?
-    border: 1px solid #fff; //rgba(255, 255, 255, 0.3); //rgba(62, 62, 62, 0.3); //#3e3e3e red;
+    border: 1px solid rgba(255, 255, 255, 0.3); //rgba(62, 62, 62, 0.3); //#3e3e3e red;
     .footer__address {
       display: flex;
       flex-direction: column;
       align-items: center;
-      // h4 {
-      //   font-size: 14pt;
-      // }
+      h4 {
+        margin-bottom: 0px;
+      }
       p, h4 {
         width: 80%;
         text-align: center;
@@ -18,12 +18,18 @@
       }
       p:last-child {
         width: 90%;
-        border: 1px solid #fff;
+        border: 1px solid rgba(255, 255, 255, 0.3);
         padding-top: 6px;
         padding-bottom: 6px;
       }
     }
     .footer__social { 
+      border-top: 1px solid rgba(255, 255, 255, 0.3); //rgba(255, 0, 0, 0.3); //#EBE48D;  is not dispayed
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3); //rgba(255, 0, 0, 0.3); //#EBE48D; //rgba(255, 255, 255, 0.3); 
+      // z-index: 1;
+      // margin: 1px 0 1px 0;
+      // padding: 1px;
+      // background-clip: padding-box;
       a {
         color: #fff;
         background-repeat: no-repeat;
