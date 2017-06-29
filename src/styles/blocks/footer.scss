@@ -4,6 +4,23 @@
   .footer__wrapper {
     margin: 37px 1px 1px 1px; // ?
     border: 1px solid rgba(255, 255, 255, 0.3); //rgba(62, 62, 62, 0.3); //#3e3e3e red;
+    > p {
+      text-align: center;
+      font-size: 14pt;
+      // margin-bottom: 18px;
+    }
+    > p:first-child {
+      margin-bottom: 18px; // does not apply
+    }
+    > p:last-child {
+      text-transform: uppercase;
+      width: 90%;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      padding-top: 6px;
+      padding-bottom: 6px;
+      margin: 0 auto;
+      margin-bottom: 24px;
+    }
     .footer__address {
       display: flex;
       flex-direction: column;
@@ -28,6 +45,7 @@
       // border: 1px solid rgba(255, 255, 255, 0.3);
       width: 100%;
       table-layout: fixed;
+      margin-bottom: 34px;
       td {
         border: 1px solid rgba(255, 255, 255, 0.3);
         text-align: center;
