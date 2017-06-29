@@ -33,6 +33,12 @@
       // border-left: 0;
       // border-right: 0;
       // background-clip: padding-box;
+      table, td {
+        border: 1px solid red;
+      }
+      table {
+        border-collapse: collapse;
+      }
       a {
         color: #fff;
         background-repeat: no-repeat;
