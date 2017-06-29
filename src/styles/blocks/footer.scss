@@ -24,12 +24,22 @@
       }
     }
     .footer__social { 
-      border-top: 1px solid rgba(255, 255, 255, 0.3); //rgba(255, 0, 0, 0.3); //#EBE48D;  is not dispayed
-      border-bottom: 1px solid rgba(255, 255, 255, 0.3); //rgba(255, 0, 0, 0.3); //#EBE48D; //rgba(255, 255, 255, 0.3); 
+      background: #292929;
+      // border-top: 1px solid rgba(255, 255, 255, 0.3); 
+      // border-bottom: 1px solid rgba(255, 255, 255, 0.3); 
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      // border: 1px solid red;
       // z-index: 1;
       // margin: 1px 0 1px 0;
-      // padding: 1px;
+      padding: 1px;
       // background-clip: padding-box;
+      // box-sizing: border-box;
+      background-clip: padding-box;
+      // background-color: #292929;
+      // check if background-clip is working
+      // background-color: grey;
+      // border-top: 2px dotted red;
+      // border-bottom: 2px dotted red;
       a {
         color: #fff;
         background-repeat: no-repeat;

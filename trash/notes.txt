@@ -34,7 +34,8 @@ news section.
 - wtf with push vanishing after branching?
 -  border rgba(255, 255, 255, 0.3); is not dispayed in a child div. z-index does not help, the border is there but cannot be seen
 https://stackoverflow.com/questions/18577856/rgba-border-transparency-not-visible-with-background-colour ?
-https://css-tricks.com/transparent-borders-with-background-clip/  the answer why this is happening
+https://css-tricks.com/transparent-borders-with-background-clip/  the answer why this is happening. background-clip: padding-box; does not help. but should do https://css-tricks.com/examples/TransparentBorders/
+2px border is seen, but when I increase border-top, border-bottom is increased. No it is the parent div border.
 
 Problems solved
 - body does not stretch to the window width
