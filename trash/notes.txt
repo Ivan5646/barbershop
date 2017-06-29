@@ -36,6 +36,9 @@ news section.
 https://stackoverflow.com/questions/18577856/rgba-border-transparency-not-visible-with-background-colour ?
 https://css-tricks.com/transparent-borders-with-background-clip/  the answer why this is happening. background-clip: padding-box; does not help. but should do https://css-tricks.com/examples/TransparentBorders/
 2px border is seen, but when I increase border-top, border-bottom is increased. No it is the parent div border.
+https://stackoverflow.com/questions/11054212/css3-background-clip-not-working-for-transparent-borders 
+Solved by border: 1px solid rgba(255, 255, 255, 0.3);
+border-left: 0; border-right: 0; or border-right-width: 0px;  border-left-width: 0px; with these set (to eliminate 2px side borders) all borders disappear, wtf
 
 Problems solved
 - body does not stretch to the window width
