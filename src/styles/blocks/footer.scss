@@ -24,20 +24,11 @@
       }
     }
     .footer__social { 
-      // background: #292929;
-      // border-top: 1px solid rgba(255, 255, 255, 0.3); 
-      // border-bottom: 1px solid rgba(255, 255, 255, 0.3); 
+      border-collapse: collapse;
       border: 1px solid rgba(255, 255, 255, 0.3);
-      // border-right-width: 0px;
-      // border-left-width: 0px;
-      // border-left: 0;
-      // border-right: 0;
-      // background-clip: padding-box;
-      table, td {
-        border: 1px solid red;
-      }
-      table {
-        border-collapse: collapse;
+      width: 100%;
+      td {
+        border: 1px solid rgba(255, 255, 255, 0.3);
       }
       a {
         color: #fff;
@@ -52,14 +43,11 @@
         background-size: 100%;
         width: 23px;
         height: 26px;
-        // display: block;
-        border-right: 1px solid rgba(255, 255, 255, 0.3);
       }
       .footer__fb {
         background-image: url("../../img/fb.png");
         width: 18px;
         height: 39px;
-        border-right: 1px solid rgba(255, 255, 255, 0.3);
       }
       .footer__inst {
         background-image: url("../../img/inst.png");
