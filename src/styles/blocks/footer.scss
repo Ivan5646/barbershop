@@ -25,10 +25,13 @@
     }
     .footer__social { 
       border-collapse: collapse;
-      border: 1px solid rgba(255, 255, 255, 0.3);
+      // border: 1px solid rgba(255, 255, 255, 0.3);
       width: 100%;
+      table-layout: fixed;
       td {
         border: 1px solid rgba(255, 255, 255, 0.3);
+        text-align: center;
+        height: 100px;
       }
       a {
         color: #fff;
