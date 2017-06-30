@@ -27,10 +27,11 @@ news, distance between lines in paragraphs = 18px
 
 Problems
 news section. 
-- p do not extend to the full width. Solved Parent container flex.
 - align p inside date div
 - date div width set to 50px dut displayed 41px
 - when setting justify-content: center; for news__date it affects p which is not child of news__date
+- news_date different width wiht the same css
+https://stackoverflow.com/questions/25514579/css-keep-all-flexbox-children-elements-the-same-size flex-grow did not help
 - wtf with push vanishing after branching?
 -  border rgba(255, 255, 255, 0.3); is not dispayed in a child div. z-index does not help, the border is there but cannot be seen
 https://stackoverflow.com/questions/18577856/rgba-border-transparency-not-visible-with-background-colour ?
@@ -41,6 +42,7 @@ Solved by border: 1px solid rgba(255, 255, 255, 0.3);
 border-left: 0; border-right: 0; or border-right-width: 0px;  border-left-width: 0px; with these set (to eliminate 2px side borders) all borders disappear, wtf
 
 Problems solved
+- p do not extend to the full width. Solved Parent container flex.
 - body does not stretch to the window width
 https://stackoverflow.com/questions/37626922/the-body-does-not-stretch-100-its-width
 in my case menu is too wide
@@ -81,6 +83,9 @@ Scope
 - tidy up h tags 
 - include fonts
 - fix date flags 
+- vertical rythm all, footer done
+- save svg, tablet logo
+- hamburger display
 
 Scope, done
 - horizontal divider
