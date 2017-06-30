@@ -26,18 +26,22 @@
       flex-direction: column;
       align-items: center;
       h4 {
-        margin-bottom: 0px;
+        margin-bottom: -4px;
       }
       p, h4 {
         width: 80%;
         text-align: center;
         font-size: 14pt;
       }
+      p:nth-child(2) {
+        margin-bottom: 3px;
+      }
       p:last-child {
         width: 90%;
         border: 1px solid rgba(255, 255, 255, 0.3);
         padding-top: 6px;
         padding-bottom: 6px;
+        margin-bottom: 26px;
       }
     }
     .footer__social { 
