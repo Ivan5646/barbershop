@@ -85,7 +85,8 @@ Scope
 - fix date flags 
 - vertical rythm all, footer done
 - save svg, tablet logo
-- hamburger display
+
 
 Scope, done
 - horizontal divider
+- hamburger display, browser bug
