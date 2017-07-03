@@ -150,7 +150,8 @@
     }
     .header__menu {
       display: flex;
-      align-items: center;
+      // align-items: center;
+      // justify-content: center;
       // order: 1; does not work
       position: absolute;
       top: 0px;
@@ -162,6 +163,8 @@
         justify-content: flex-start;
         flex-direction: row; 
         align-items: center;
+        justify-content: center;
+        position: static;
         height: 72px;
         list-style-type: none;
         text-transform: uppercase;
