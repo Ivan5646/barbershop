@@ -2,12 +2,14 @@
 
 .header {
   color: #fff;
-  position: relative;
+  // position: relative;
+  // display: flex;
+  // flex-direction: column;
   a {
     text-decoration: none;
     color: #fff;
   }
-  .header__mobile-logo {
+  .header__top {
     width: 100%;
     height: 85px;
     background-color: #242424;
@@ -73,6 +75,7 @@
       font-size: 30px;
     }
     ul {
+      flex-direction: column; // has no effect
       position: absolute;
       left: 51px;
       width: 100%;
@@ -81,10 +84,9 @@
       padding: 0;
       margin: 0;
       // max-width: 890px; // not responsive with width prop when decreasing viewport's width
-      flex-direction: column;
       background-color: #826550;
       li {
-        justify-content: center;
+        justify-content: center; // has no effect
         margin-right: auto;
         border-bottom: 1px solid #71543f;
         // outline: 1px solid #886e5b;
@@ -102,6 +104,10 @@
       }
     } // end of ul 
   } // end of .header__menu
+
+  .header__menu_shown {
+    display: block; // flex?
+  }
   
 } // end of .header
 
@@ -118,8 +124,11 @@
   // height: 0;
 }
 
+// tablet css
 @media only screen and (min-width: $mobile-width) {
   .header {
+    display: flex;
+    flex-direction: column;
     background-image: url("../../img/header-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -128,30 +137,43 @@
     z-index: 5;
     width: 100%;
     height: 400px;
-    .header__mobile-logo {
+    position: relative;
+    .header__top {
+      order: 2;
       background-image: url("../../img/tablet-logo.svg");  
+      background-size: 36% auto; // width height
     }
     .header__strip {
       display: none;
     }
     .header__menu {
       display: flex;
+      // order: 1; does not work
+      position: absolute;
+      top: 0px;
+      left: 0px;
       ul {
+        display: flex;
         justify-content: flex-start;
+        flex-direction: row; 
         list-style-type: none;
         text-transform: uppercase;
         margin: 0 auto;
         max-width: 890px; // not responsive with width prop when decreasing viewport's width
-        flex-direction: row;
         background-color: transparent;
         li {
-          margin-right: auto;
+          margin-right: 0;
+          border-bottom: 0;
         } 
         li:last-child {
-          margin-left: auto;
+          margin-left: 0;
           margin-right: 0;
+          background-color: transparent;
         }
       }
     } // end of .header__menu
+    .header__close{
+      display: none !important; // why it does not work without important
+    }
   } // end of .header
 }

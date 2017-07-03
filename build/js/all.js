@@ -1,10 +1,10 @@
 $(document).ready(function(){
-  $(".header__hamburger").on("click", function(){
-    $(".header__menu").toggle();
+  $(".header__close").on("click", function(){
+    $(".header__menu").toggleClass("header__menu_shown");
   })
 
-  $(".header__close").on("click", function(){
-    $(".header__menu").toggle();
+  $(".header__hamburger").on("click", function(){
+    $(".header__menu").toggleClass("header__menu_shown");
   })
 
   // calling the owl-carousel plugin  a

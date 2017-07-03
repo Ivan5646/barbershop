@@ -40,6 +40,10 @@ https://css-tricks.com/transparent-borders-with-background-clip/  the answer why
 https://stackoverflow.com/questions/11054212/css3-background-clip-not-working-for-transparent-borders 
 Solved by border: 1px solid rgba(255, 255, 255, 0.3);
 border-left: 0; border-right: 0; or border-right-width: 0px;  border-left-width: 0px; with these set (to eliminate 2px side borders) all borders disappear, wtf
+- flex order does not work
+
+- https://stackoverflow.com/questions/19038240/media-query-styles-not-overriding-original-styles
+
 
 Problems solved
 - p do not extend to the full width. Solved Parent container flex.
@@ -74,6 +78,8 @@ https://codepen.io/web-tiki/pen/IjKvp  same padding problrm
 Solved https://gist.github.com/Ivan5646/c8abf1765a04b99a4842f5ba929c2c03
 - white space between divs. Solved upper p had margin from user agent, set it to 0.
 - flex align items flex start does not align. Image flex-shrink:0
+
+- dispplay: block is crossed in browser. Sovled by using toggleClass()
 
 
 Scope
