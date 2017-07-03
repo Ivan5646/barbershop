@@ -139,8 +139,8 @@
     height: 400px;
     position: relative;
     .header__top {
-      order: 2;
-      background-image: url("../../img/tablet-logo.svg");  
+      // order: 2; does not work
+      background-image: none;
       background-size: 36% auto; // width height
     }
     .header__strip {
@@ -171,9 +171,17 @@
           background-color: transparent;
         }
       }
+      .header__close{
+        display: none; 
+      }
     } // end of .header__menu
-    .header__close{
-      display: none !important; // why it does not work without important
+    .header__tabletLogo {
+      margin-top: 40px;
+      background-image: url("../../img/tablet-logo.svg");  
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      height: 100px;
     }
   } // end of .header
 }
