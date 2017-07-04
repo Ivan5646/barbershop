@@ -172,7 +172,9 @@
         max-width: 890px; // not responsive with width prop when decreasing viewport's width
         background-color: transparent;
         li {
-          margin-right: 0;
+          margin-right: 2px;
+          padding: 0;
+          position: relative;
           border-bottom: 0;
         } 
         li:last-child {
@@ -180,6 +182,13 @@
           margin: 0;
           padding: 0;
           background-color: transparent;
+        }
+        li::after {
+          content: "X"; //"x" displays the borer
+          border-bottom: 3px solid red; //#826550;
+          position: absolute;
+          top: 0;
+          right: 0;
         }
       }
       .header__close{
