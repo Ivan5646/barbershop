@@ -15,17 +15,25 @@
     div {
       display: flex;
       justify-content: space-between;
+      align-items: center;
       p {
         margin-left: 4%;
         margin-right: 4%;
+        span {
+          // align-self: flex-start; does not work
+          font-size: 26pt;
+          vertical-align: text-top;
+        }
       }
       p:first-child {
         text-transform: uppercase;
         font-weight: bold;
         text-align: left;
+        font-size: 40pt;
       }
       p:last-child {
         text-align: right;
+        font-size: 18pt;
       }
     }
     div:first-child {
