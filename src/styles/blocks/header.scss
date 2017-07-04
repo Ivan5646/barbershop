@@ -184,18 +184,12 @@
           background-color: transparent;
         }
         li::after {
-          // content: ""; //"x" displays the borer
-          // border-bottom: 3px solid red; //#826550;
-          // position: absolute;
-          // top: 0;
-          // right: 0;
-          // display: block;
           content: " ";
           position: absolute;
-          left: 5px;
-          right: 5px;
-          bottom: 5px;
-          border-bottom: 5px solid #826550;
+          left: 19px;
+          right: -2px;
+          bottom: -13px;
+          border-bottom: 3px solid #826550;
         }
       }
       .header__close{

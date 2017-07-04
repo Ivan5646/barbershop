@@ -44,6 +44,15 @@ border-left: 0; border-right: 0; or border-right-width: 0px;  border-left-width:
 
 - https://stackoverflow.com/questions/19038240/media-query-styles-not-overriding-original-styles
 
+- pseudo element's border is not displayed. Idk wtf is going on, it displayed in firefox, displayed in chrome with this code li::after {
+          content: " ";
+          position: absolute;
+          left: 5px;
+          right: 5px;
+          bottom: 5px;
+          border-bottom: 5px solid #826550;
+        }
+
 
 Problems solved
 - p do not extend to the full width. Solved Parent container flex.
