@@ -177,6 +177,9 @@
           position: relative;
           border-bottom: 0;
         } 
+        li.active { // correct BEM naming?
+          font-weight: bold;
+        }
         li:last-child {
           height: auto;
           margin: 0;
@@ -191,6 +194,7 @@
           bottom: -13px;
           border-bottom: 3px solid #826550;
         }
+
       }
       .header__close{
         display: none; 

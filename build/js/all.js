@@ -7,7 +7,12 @@ $(document).ready(function(){
     $(".header__menu").toggleClass("header__menu_shown");
   })
 
-  // calling the owl-carousel plugin  a
+  // make menu li active
+  $(".header__menu ul li").on("click", function(){
+    this.toggleClass("active");
+  })
+
+  // calling the owl-carousel plugin
   $(".owl-carousel").owlCarousel({
     items: 1,
     dotData: true
