@@ -11,7 +11,6 @@ $(document).ready(function(){
   $(".header__menu ul li").on("click", function(){
     // first remove .active. Modify for multiple classes
     var items = $(".header__menu ul li");
-    var lastItem = items.length - 1;
     items.each(function(index, li) {
       var item = $(li); 
       //console.log(item.attr("class"));
@@ -20,11 +19,12 @@ $(document).ready(function(){
       }
     });
     // set .active to the clicked li
-    if (this.innerText == "Вход") { 
+    if ($(this).is(":last-child")) {
       return
+    } else {
+      $(this).toggleClass("active");
+      // console.log(this.innerText);
     }
-    $(this).toggleClass("active");
-    // console.log(this.innerText);
   })
 
   // calling the owl-carousel plugin

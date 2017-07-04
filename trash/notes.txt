@@ -100,7 +100,7 @@ Scope
 - fix date flags 
 - vertical rythm all, footer done
 - save svg, tablet logo
-- exculde .active for last li, set .active for current page, modify if multiple classes
+- exculde .active for last li, set .active for current page?, modify if multiple classes
 
 
 Scope, done

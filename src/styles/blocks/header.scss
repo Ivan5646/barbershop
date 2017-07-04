@@ -193,6 +193,9 @@
           margin: 0;
           padding: 0;
           background-color: transparent;
+          span {
+            display: none;
+          }
         }
       } // ul
       .header__close{
