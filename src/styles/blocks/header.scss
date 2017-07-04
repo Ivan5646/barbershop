@@ -177,16 +177,10 @@
           position: relative;
           border-bottom: 0;
         } 
-        li.active { // correct BEM naming?
-          font-weight: bold;
-        }
-        li:last-child {
-          height: auto;
-          margin: 0;
-          padding: 0;
-          background-color: transparent;
-        }
-        li::after {
+        // li.active { // correct BEM naming?
+        //   font-weight: bold;
+        // }
+        li.active::after {
           content: " ";
           position: absolute;
           left: 19px;
@@ -194,8 +188,13 @@
           bottom: -13px;
           border-bottom: 3px solid #826550;
         }
-
-      }
+        li:last-child {
+          height: auto;
+          margin: 0;
+          padding: 0;
+          background-color: transparent;
+        }
+      } // ul
       .header__close{
         display: none; 
       }
