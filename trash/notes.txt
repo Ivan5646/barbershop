@@ -28,7 +28,7 @@ news, distance between lines in paragraphs = 18px
 Problems
 news section. 
 - align p inside date div
-- date div width set to 50px dut displayed 41px
+- date div width set to 50px dut displayed 41px. And two elements with the same properties are rendered with different widths.
 - when setting justify-content: center; for news__date it affects p which is not child of news__date
 - news_date different width wiht the same css
 https://stackoverflow.com/questions/25514579/css-keep-all-flexbox-children-elements-the-same-size flex-grow did not help
