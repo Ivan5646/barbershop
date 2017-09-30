@@ -70,4 +70,13 @@
   } //end of advertisement__slider
 }
 
-
+@media only screen and (min-width: 768px) {
+  .advertisement {
+    >p {
+      display: none;
+    }
+    .advertisement__slider {
+      padding-top: 22px;
+    }
+  }
+}
