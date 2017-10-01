@@ -81,6 +81,11 @@
           flex-basis: 30%;
           align-self: center;
         }
+        .advertisement__chair { // not aligned, stick out on the  left
+          // position: relative;
+          // left: -4px;
+          flex-basis: 27%;  
+        }
         .advertisement__text {
           text-align: left;
           line-height: 0px;
