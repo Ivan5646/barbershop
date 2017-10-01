@@ -27,11 +27,29 @@ $(document).ready(function(){
     }
   })
 
-  // calling the owl-carousel plugin
-  $(".owl-carousel").owlCarousel({
-    items: 1,
-    dotData: true
-  });
+  // if ($(window).width() > 768) {
+  //   console.log("width is bigger than 768");
+  //   $(".advertisement__slider").removeClass($(".owl-carousel"));
+  // } 
+
+  //calling the owl-carousel plugin
+  // if ($(window).width() < 768) {
+  //   $(".owl-carousel").owlCarousel({
+  //     items: 1,
+  //     dotData: true
+  //   });
+  // } else {
+  //   $(".advertisement__slider").removeClass($("owl-carousel"));
+  // }
+
+  if ($(window).width() < 768) {
+    console.log("width is less than 768");
+    $(".advertisement__slider").addClass("owl-carousel");
+    $(".owl-carousel").owlCarousel({
+      items: 1,
+      dotData: true
+    });
+  }
 
 
 });

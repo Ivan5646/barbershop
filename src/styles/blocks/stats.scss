@@ -1,7 +1,9 @@
 .stats {
   // margin-bottom: 0;
+  // background-color: #242424;
   .stats__teaser {
     margin: 0 auto;
+    background-color: #ffffff;
     p {
       text-align: center;
     }
@@ -58,13 +60,38 @@
 
 @media only screen and (min-width: 768px) {
   .stats {
-    .stats__teaser {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      p:last-child {
-        display: block;
+    margin-top: -184px;
+    position: relative;
+    z-index: 5;
+    .stats__wrapper {
+      width: 80%;
+      margin: 0 auto;
+      // background-color: #242424;
+      .stats__teaser {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        min-height: 184px;
+        p:last-child {
+          display: block;
+        }
+      }
+      .stats__figures {
+        display: flex;
+        flex-wrap: wrap;
+        > div {
+          // width: 50%;
+          flex-basis: 50%;
+        }
       }
     }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .stats {
+    .stats__teaser {
+      float: left;
+    } 
   }
 }
