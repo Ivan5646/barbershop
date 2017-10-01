@@ -27,29 +27,31 @@ $(document).ready(function(){
     }
   })
 
-  // if ($(window).width() > 768) {
-  //   console.log("width is bigger than 768");
-  //   $(".advertisement__slider").removeClass($(".owl-carousel"));
-  // } 
+  // call the owl carousel. https://stackoverflow.com/questions/28251644/disabling-owl-carousel-at-a-specific-viewport-width
+  var owl = $('.owl-carousel'),
+      owlOptions = {
+        items: 1,
+        dotData: true
+      };
 
-  //calling the owl-carousel plugin
-  // if ($(window).width() < 768) {
-  //   $(".owl-carousel").owlCarousel({
-  //     items: 1,
-  //     dotData: true
-  //   });
-  // } else {
-  //   $(".advertisement__slider").removeClass($("owl-carousel"));
-  // }
-
-  if ($(window).width() < 768) {
-    console.log("width is less than 768");
-    $(".advertisement__slider").addClass("owl-carousel");
-    $(".owl-carousel").owlCarousel({
-      items: 1,
-      dotData: true
-    });
+  if ( $(window).width() < 768 ) {
+    var owlActive = owl.owlCarousel(owlOptions); // calling the carousel
+  } else {
+    owl.addClass('off');
   }
 
+  $(window).resize(function() {
+    if ( $(window).width() < 768 ) {
+      if ( $('.owl-carousel').hasClass('off') ) {
+        var owlActive = owl.owlCarousel(owlOptions);
+        owl.removeClass('off');
+      }
+    } else {
+      if ( !$('.owl-carousel').hasClass('off') ) {
+        owl.addClass('off').trigger('destroy.owl.carousel');
+        owl.find('.owl-stage-outer').children(':eq(0)').unwrap();
+      }
+    }
+  });
 
 });
