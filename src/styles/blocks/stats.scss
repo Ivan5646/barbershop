@@ -66,6 +66,8 @@
     .stats__wrapper {
       width: 80%;
       margin: 0 auto;
+      position: relative;
+      z-index: 6;
       // background-color: #242424;
       .stats__teaser {
         display: flex;
@@ -90,6 +92,7 @@
 
 @media only screen and (min-width: 1200px) {
   .stats {
+
     .stats__teaser {
       float: left;
     } 
