@@ -1,3 +1,5 @@
+@import "../variables";
+
 .stats {
   // margin-bottom: 0;
   // background-color: #242424;
@@ -90,9 +92,9 @@
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: $desktop-width) {
   .stats {
-
+    margin-top: -43px;
     .stats__teaser {
       float: left;
     } 
