@@ -106,23 +106,29 @@
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
+      justify-content: center;
       > h2 {
-        flex-basis: 50%;
+        flex-basis: 44%;
         order: 0;
         margin-top: 0;
+        // margin-left: 2%;
       }
       .news__block {
-        flex-basis: 50%;
+        flex-basis: 44%;
       }
       .news__block1 {
         order: 2;
+        margin-right: 4%;
       }
       .news__block2 {
         order: 3;
       }
       > button {
-        flex-basis: 50%;
+        flex-basis: 20%;
         order: 1;
+        margin: 0;
+        margin-left: auto;
+        // align-self: flex-end;
       }
     }
   }
