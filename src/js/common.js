@@ -28,7 +28,7 @@ $(document).ready(function(){
   })
 
   // call the owl carousel. https://stackoverflow.com/questions/28251644/disabling-owl-carousel-at-a-specific-viewport-width
-  var owl = $('.owl-carousel'),
+  var owl = $('.advertisement__slider'),
       owlOptions = {
         items: 1,
         dotData: true
@@ -42,7 +42,7 @@ $(document).ready(function(){
 
   $(window).resize(function() {
     if ( $(window).width() < 768 ) {
-      if ( $('.owl-carousel').hasClass('off') ) {
+      if ( $('.advertisement__slider').hasClass('off') ) {
         var owlActive = owl.owlCarousel(owlOptions);
         owl.removeClass('off');
       }
@@ -52,6 +52,11 @@ $(document).ready(function(){
         owl.find('.owl-stage-outer').children(':eq(0)').unwrap();
       }
     }
+  });
+
+  $(".reviews__slider").owlCarousel({
+    items: 1,
+    dotData: true
   });
 
 });
