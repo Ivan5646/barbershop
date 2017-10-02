@@ -106,11 +106,12 @@
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: space-evenly;
       > h2 {
-        flex-basis: 44%;
+        flex-basis: 50%;
         order: 0;
         margin-top: 0;
+        margin-bottom: 70px; // psd top margin 50px, bottom 70px
         // margin-left: 2%;
       }
       .news__block {
@@ -128,6 +129,7 @@
         order: 1;
         margin: 0;
         margin-left: auto;
+        margin-bottom: 70px;
         // align-self: flex-end;
       }
     }
