@@ -97,6 +97,33 @@
   hr {
     color: #e5ddd5;
   }
+}
 
-
+@media only screen and (min-width: 768px) {
+  .news {
+    padding-top: 80px;
+    .news__wrapper {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      > h2 {
+        flex-basis: 50%;
+        order: 0;
+        margin-top: 0;
+      }
+      .news__block {
+        flex-basis: 50%;
+      }
+      .news__block1 {
+        order: 2;
+      }
+      .news__block2 {
+        order: 3;
+      }
+      > button {
+        flex-basis: 50%;
+        order: 1;
+      }
+    }
+  }
 }

@@ -28,6 +28,8 @@ top slider, distance between lines in paragraphs = 16px
 news, distance between lines in paragraphs = 18px
 
 Problems
+advertisement
+- can't ovveride user agent style sheet with !important, need to decrase space btween lines
 news section. 
 - align p inside date div
 - date div width set to 50px dut displayed 41px. And two elements with the same properties are rendered with different widths.
