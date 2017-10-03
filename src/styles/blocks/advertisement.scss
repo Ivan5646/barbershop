@@ -1,3 +1,5 @@
+@import "../variables";
+
 .advertisement {
   background-color: #242424;
   color: #fff;
@@ -104,5 +106,11 @@
         border-bottom: 1px solid #4a4a4a;
       } 
     }
+  }
+}
+
+@media only screen and (min-width: $desktop-width) {
+  .advertisement {
+    z-index: -1;
   }
 }

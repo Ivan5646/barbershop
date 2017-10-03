@@ -63,8 +63,8 @@
 @media only screen and (min-width: 768px) {
   .stats {
     margin-top: -184px;
-    position: relative;
-    z-index: 5;
+    // position: relative;
+    // z-index: 5;
     .stats__wrapper {
       width: 80%;
       margin: 0 auto;
@@ -76,7 +76,6 @@
         flex-direction: row;
         flex-wrap: wrap;
         height: 184px;
-        // justify-content: flex-start;
         p {
           text-align: left;
           font-size: 16px;
@@ -127,14 +126,22 @@
 
 @media only screen and (min-width: $desktop-width) {
   .stats {
-    margin-top: -43px;
+    // margin-top: -184px;
+    // position: relative;
+    // z-index: 0;
     .stats__wrapper {
       display: flex;
+      background-color: transparent;
       .stats__teaser {
-        float: left;
         width: 33.33%;
         height: inherit !important;
+        position: relative;
+        z-index: 7;
       } 
+      .stats__figures {
+        position: relative;
+        z-index: 7;
+      }
     }
   }
 }
