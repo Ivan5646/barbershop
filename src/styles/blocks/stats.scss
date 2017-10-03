@@ -128,8 +128,13 @@
 @media only screen and (min-width: $desktop-width) {
   .stats {
     margin-top: -43px;
-    .stats__teaser {
-      float: left;
-    } 
+    .stats__wrapper {
+      display: flex;
+      .stats__teaser {
+        float: left;
+        width: 33.33%;
+        height: inherit !important;
+      } 
+    }
   }
 }
