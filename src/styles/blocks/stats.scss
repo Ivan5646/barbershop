@@ -126,9 +126,7 @@
 
 @media only screen and (min-width: $desktop-width) {
   .stats {
-    // margin-top: -184px;
-    // position: relative;
-    // z-index: 0;
+    margin-top: -152px;
     .stats__wrapper {
       display: flex;
       background-color: transparent;
@@ -137,6 +135,19 @@
         height: inherit !important;
         position: relative;
         z-index: 7;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        p {
+          width: 80% !important;
+          margin: 0 !important;
+          padding: 0 !important;
+          // margin-top: 
+          // margin-bottom: 
+          // margin-left: 
+          // padding-top: 
+          // padding-bottom: 
+        }
       } 
       .stats__figures {
         position: relative;
