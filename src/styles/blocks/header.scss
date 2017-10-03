@@ -213,7 +213,13 @@
 
 @media only screen and (min-width: $desktop-width) {
   .header {
-    // position: relative;
-    // z-index: 6;
+    height: 650px; // psd 650px;
+    .header__top {
+      
+    }
+    .header__tabletLogo {
+      background-image: url("../../img/desktop-logo.svg");  
+    }
   }
+
 }
