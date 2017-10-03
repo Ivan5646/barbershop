@@ -214,6 +214,7 @@
 @media only screen and (min-width: $desktop-width) {
   .header {
     height: 650px; // psd 650px;
+    z-index: 2;
     .header__top {
       
     }
