@@ -41,29 +41,29 @@
         background-image: url("../../img/money.png"); 
       }      
     }
-    &::after {  
-      content: "";
-      position: absolute;
-      bottom: -36px;
-      left: 0px;
-      background-color: #242424;
-      background: linear-gradient(to bottom left, #242424, #242423 51%,  transparent 52%);
-      z-index: -1;
-      width: 50.2%;
-      height: 37px;
-    }
-    &::before {
-      content: "";
-      position: absolute;
-      bottom: -36px;
-      right: 0px;
-      background-color: #242424;
-      background: linear-gradient(to bottom right, #242424, #242423 51%,  transparent 52%);
-      z-index: -1;
-      width: 50.2%;
-      height: 37px;
-    }
   } //end of advertisement__slider
+  &::after {  
+    content: "";
+    position: absolute;
+    bottom: -36px;
+    left: 0px;
+    background-color: #242424;
+    background: linear-gradient(to bottom left, #242424, #242423 51%,  transparent 52%);
+    z-index: -1;
+    width: 50.2%;
+    height: 37px;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -36px;
+    right: 0px;
+    background-color: #242424;
+    background: linear-gradient(to bottom right, #242424, #242423 51%,  transparent 52%);
+    z-index: -1;
+    width: 50.2%;
+    height: 37px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
