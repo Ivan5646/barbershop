@@ -127,8 +127,9 @@
         // width: 30%; 
         // width: 250px;
         // flex-basis: 80%;
-        width: auto;
         display: table-cell;
+        width: 30%; //29.66%;  //auto; 319px;
+        //padding-right: 40px;
         .advertisement__text {
           margin: 0 !important;
           padding: 0 !important;
