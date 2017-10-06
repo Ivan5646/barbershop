@@ -128,16 +128,18 @@
   .stats {
     margin-top: -152px;
     .stats__wrapper {
-      display: flex;
+      // display: flex;
       background-color: transparent;
+      display: table;
       .stats__teaser {
         width: 33.33%;
         height: inherit !important;
         position: relative;
         z-index: 7;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+        // flex-direction: column;
+        // justify-content: space-around;
+        // align-items: center;
+        display: table-cell;
         p {
           width: 80% !important;
           margin: 0 !important;

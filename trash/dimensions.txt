@@ -1,0 +1,3 @@
+stats
+total width 960px
+each item 320px
