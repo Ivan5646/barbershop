@@ -1,11 +1,6 @@
 // @import url(http://fonts.googleapis.com/css?family=PT+Sans);
 
-@font-face { font-family: PTSansNarrow; src: url("../fonts/PTC55F.ttf"),
-url("../fonts/PTC75F.ttf"), url("../fonts/PTN57F.ttf"), url("../fonts/PTN77F.ttf"), url("../fonts/PTS55F.ttf"),
-url("../fonts/PTS56F.ttf"), url("../fonts/PTS75F.ttf")б url("../fonts/PTS76F.ttf"); 
-} 
-
-@font-face { font-family: Nevis; src: url("../fonts/nevis.ttf"); }
+@font-face { font-family: PTSansNarrow; src: url("../fonts/pt-sans-narrow.ttf"); }
 
 body {
   display: flex;
@@ -14,7 +9,7 @@ body {
   flex-direction: column;
   margin: 0 auto;
   // padding: 16px 8px 0;
-  font-family: 'Nevis'; //, Arial, sans-serif;
+  font-family: 'PTSansNarrow'; //, Arial, sans-serif;
 }
 h1 {
   color: green;
