@@ -10,6 +10,7 @@ var concat = require('gulp-concat');
 var minify = require('gulp-minify'); // minify js
 var watch = require('gulp-watch');
 var connect = require('gulp-connect');
+var autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('connect', function() {
   connect.server({
@@ -21,6 +22,10 @@ gulp.task('connect', function() {
 gulp.task('app-styles', function() {
   return gulp.src("src/styles/**/*.scss")
     .pipe(sass().on('error', sass.logError))
+    .pipe(autoprefixer({
+      browsers: ['last 2 versions'],
+      cascade: false
+    }))
     .pipe(uglifycss())
     .pipe(gulp.dest("build/styles"))
     .pipe(connect.reload());
