@@ -98,9 +98,9 @@ Solved https://gist.github.com/Ivan5646/c8abf1765a04b99a4842f5ba929c2c03
 
 
 Scope
+- connect fonts
 - big screens whitespace on the sides
 - gulp prefixes for browsers
-- connect fonts
 - сконфигурировать сборку галпом правильно всех стилей, скриптов, подгружать через нод модули?
 - tidy up h tags 
 - include fonts
