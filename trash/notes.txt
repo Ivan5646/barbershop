@@ -28,6 +28,8 @@ top slider, distance between lines in paragraphs = 16px
 news, distance between lines in paragraphs = 18px
 
 Problems
+stats
+- stat_teaser distribute space evenly vertically between parapgraphps
 advertisement
 - can't ovveride user agent style sheet with !important, need to decrase space btween lines
 news section. 

@@ -142,13 +142,21 @@
         display: table-cell;
         p {
           width: 80% !important;
-          margin: 0 !important;
-          padding: 0 !important;
-          // margin-top: 
-          // margin-bottom: 
-          // margin-left: 
-          // padding-top: 
-          // padding-bottom: 
+          margin: 0 auto !important;
+          // padding: 0 !important;
+          padding: 5% 0;
+          vertical-align: top;
+        }
+        p:first-child {
+          position: relative;
+          top: -27px;
+          padding-top: 0;
+          padding-bottom: 0;
+          padding-left: 0;
+        }
+        p:nth-child(2) {
+          padding-bottom: 14%;
+          // min-height: 200px;
         }
       } 
       .stats__figures {
