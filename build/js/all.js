@@ -56,7 +56,9 @@ $(document).ready(function(){
 
   $(".reviews__slider").owlCarousel({
     items: 1,
-    dotData: true
+    dotData: true,
+    nav:true,
+    navText: ["<img src='../img/scissors.png'>","<img src='../img/right-arrow.svg'>"]
   });
 
 });
