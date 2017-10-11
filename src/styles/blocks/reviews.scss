@@ -92,6 +92,13 @@
         .reviews__slide {
           width: 66%;
           margin: 0 auto;
+          .reviews__reviewer {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            background-size: 156%; // 134px same effect
+            background-position: 50% 50%;
+          }
         }
       }
     }
