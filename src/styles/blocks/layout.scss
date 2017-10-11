@@ -41,4 +41,8 @@ h1 {
 .owl-carousel.off {
   display: block;
 }
-
+.owl-prev, .owl-next {
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 20;
+}

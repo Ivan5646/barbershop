@@ -28,6 +28,8 @@ top slider, distance between lines in paragraphs = 16px
 news, distance between lines in paragraphs = 18px
 
 Problems
+
+
 stats
 - stat_teaser distribute space evenly vertically between parapgraphps
 advertisement
@@ -61,6 +63,13 @@ border-left: 0; border-right: 0; or border-right-width: 0px;  border-left-width:
 
 
 Problems solved
+-svg is not disaplying in chrome and opera, but displaying in firefox (.owl-prev, .owl-next) arrows
+https://css-tricks.com/forums/topic/svg-css-background-image-not-showing-in-chrome/
+Try opening the svg in a plain text editor and change this;
+xlink:href="data:img/png;base64,
+to this;
+xlink:href="data:image/png;base64,
+
 - p do not extend to the full width. Solved Parent container flex.
 - body does not stretch to the window width
 https://stackoverflow.com/questions/37626922/the-body-does-not-stretch-100-its-width

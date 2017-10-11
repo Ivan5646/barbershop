@@ -58,7 +58,7 @@ $(document).ready(function(){
     items: 1,
     dotData: true,
     nav:true,
-    navText: ["<img src='../img/scissors.png'>","<img src='../img/right-arrow.svg'>"]
+    navText: ["<img src='../img/left-arrow.svg'>","<img src='../img/right-arrow.svg'>"]
   });
 
 });
