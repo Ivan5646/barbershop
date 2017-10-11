@@ -1,3 +1,5 @@
+@import "../variables";
+
 .reviews {
   position: relative;
   background-color: #f8f5f2;
@@ -82,4 +84,19 @@
     }
   } // .reviews__wrapper
 }
+
+@media only screen and (min-width: $tablet-width) {
+  .reviews {
+    .reviews__wrapper {
+      .reviews__slider {
+        .reviews__slide {
+          width: 66%;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
+
+
 

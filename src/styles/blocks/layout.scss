@@ -42,7 +42,19 @@ h1 {
   display: block;
 }
 .owl-prev, .owl-next {
-  background-repeat: no-repeat;
-  background-position: center;
-  z-index: 20;
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // z-index: 20;
+  position: relative;
+  top: -44px;
+  display: inline-block;
 }
+.owl-prev {
+  left: 156px;
+}
+.owl-next {
+  left: 1100px;
+}
+// .owl-nav{ does not effect arrows
+//   width: 80%;
+// }
