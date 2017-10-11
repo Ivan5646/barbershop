@@ -4,8 +4,8 @@
 
 body {
   display: flex;
-  height: 100%;
-  max-width: 1600px;
+  // height: 100%;
+  // max-width: 1600px;
   flex-direction: column;
   margin: 0 auto;
   // padding: 16px 8px 0;
@@ -60,7 +60,7 @@ h1 {
   margin: 0 auto;
 }
 
-@media only screen and (min-width: $mobile-width) {
+@media only screen and (max-width: 768px) {
   .owl-prev, .owl-next {
     display: none;
   }
