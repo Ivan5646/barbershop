@@ -1,4 +1,4 @@
-// @import url(http://fonts.googleapis.com/css?family=PT+Sans);
+@import "../variables";
 
 @font-face { font-family: PTSansNarrow; src: url("../fonts/pt-sans-narrow.ttf"); }
 
@@ -50,11 +50,18 @@ h1 {
   display: inline-block;
 }
 .owl-prev {
-  left: 156px;
+  left: -220px;
 }
 .owl-next {
-  left: 1100px;
+  left: 136%;//700px;
 }
-// .owl-nav{ does not effect arrows
-//   width: 80%;
-// }
+.owl-nav{ //does not effect arrows
+  width: 40%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: $mobile-width) {
+  .owl-prev, .owl-next {
+    display: none;
+  }
+}
