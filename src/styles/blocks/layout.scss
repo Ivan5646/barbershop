@@ -50,17 +50,18 @@ h1 {
   display: inline-block;
   border: 1px solid black;
   width: 28px;
-  height: 90px;
+  height: 160px;
 }
 .owl-nav{ //does not effect arrows
   // width: 40%;
   // margin: 0 auto;
   // margin-bottom: -90px;
   position: relative;
-  top: -33px;
-  border: 2px solid red;
+  top: -100px; //-64px;
+  border: 1px solid red;
   display: flex;
   justify-content: space-between;
+  height: 160px;
 }
 .owl-prev {
   // left: -220px;
@@ -70,6 +71,10 @@ h1 {
 }
 
 @media only screen and (max-width: 768px) {
+  // .owl-dots {
+  //   position: relative;
+  //   top: 0;
+  // }
   .owl-prev, .owl-next {
     display: none;
   }

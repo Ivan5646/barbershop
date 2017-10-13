@@ -90,14 +90,20 @@
   .reviews {
     .reviews__wrapper {
       .reviews__slider {
+        .owl-dots { 
+          position: relative;
+          top: -130px;
+        }
         border: 1px solid black;
         width: 78%;
+        height: 160px;
         margin: 0 auto;
         .reviews__slide {
           width: 66%; 
           margin: 0 auto;
           justify-content: center;
-          position: relative; // for absolute position of owl-prev. owl-next
+          align-items: center; //does not work
+          position: relative; // for absolute position of owl-prev. .owl-next
           .reviews__reviewer {
             border-radius: 50%;
             width: 80px;
