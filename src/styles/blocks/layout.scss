@@ -41,35 +41,6 @@ h1 {
 .owl-carousel.off {
   display: block;
 }
-.owl-prev, .owl-next {
-  // background-repeat: no-repeat;
-  // background-position: center;
-  // z-index: 20;
-  position: relative;
-  top: 0;
-  display: inline-block;
-  border: 1px solid black;
-  width: 28px;
-  height: 160px;
-}
-.owl-nav{ //does not effect arrows
-  // width: 40%;
-  // margin: 0 auto;
-  // margin-bottom: -90px;
-  position: relative;
-  top: -100px; //-64px;
-  border: 1px solid red;
-  display: flex;
-  justify-content: space-between;
-  height: 160px;
-}
-.owl-prev {
-  // left: -220px;
-}
-.owl-next {
-  // left: 93%;
-}
-
 @media only screen and (max-width: 768px) {
   // .owl-dots {
   //   position: relative;

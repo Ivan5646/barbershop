@@ -90,14 +90,37 @@
   .reviews {
     .reviews__wrapper {
       .reviews__slider {
+          border: 1px solid black;
+          width: 78%;
+          height: 160px;
+          margin: 0 auto;
+        .owl-nav {
+          position: absolute;
+          top: 0px; //-64px;
+          border: 1px solid red;
+          display: flex;
+          justify-content: space-between;
+          height: 160px;
+          width: 100%;
+        }
         .owl-dots { 
           position: relative;
-          top: -130px;
+          top: 32px;
         }
-        border: 1px solid black;
-        width: 78%;
-        height: 160px;
-        margin: 0 auto;
+        .owl-prev, .owl-next {
+          // background-repeat: no-repeat;
+          // background-position: center;
+          // z-index: 20;
+          position: relative;
+          top: 0;
+          display: inline-block;
+          border: 1px solid black;
+          width: 28px;
+          height: 160px;
+        }
+        .owl-next {
+          right: 0;
+        }
         .reviews__slide {
           width: 66%; 
           margin: 0 auto;
