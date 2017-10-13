@@ -89,9 +89,13 @@
   .reviews {
     .reviews__wrapper {
       .reviews__slider {
+        border: 1px solid black;
+        width: 78%;
+        margin: 0 auto;
         .reviews__slide {
-          width: 66%;
+          width: 66%; 
           margin: 0 auto;
+          justify-content: center;
           .reviews__reviewer {
             border-radius: 50%;
             width: 80px;
