@@ -46,22 +46,27 @@ h1 {
   // background-position: center;
   // z-index: 20;
   position: relative;
-  top: -82px;
+  top: 0;
   display: inline-block;
   border: 1px solid black;
   width: 28px;
   height: 90px;
 }
+.owl-nav{ //does not effect arrows
+  // width: 40%;
+  // margin: 0 auto;
+  // margin-bottom: -90px;
+  position: relative;
+  top: -33px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+}
 .owl-prev {
-  left: -220px;
+  // left: -220px;
 }
 .owl-next {
-  left: 136%;//700px;
-}
-.owl-nav{ //does not effect arrows
-  width: 40%;
-  margin: 0 auto;
-  margin-bottom: -90px;
+  // left: 93%;
 }
 
 @media only screen and (max-width: 768px) {
