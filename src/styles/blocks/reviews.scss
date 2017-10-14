@@ -90,7 +90,7 @@
   .reviews {
     .reviews__wrapper {
       .reviews__slider {
-          border: 1px solid black;
+          // border: 1px solid blue;
           width: 78%;
           height: 160px;
           margin: 0 auto;
@@ -103,12 +103,12 @@
         .owl-nav {
           position: absolute;
           top: -1px; 
-          right: -3.6%;
-          border: 1px solid red;
+          right: -6%;
+          border: 1px solid #e5ddd5;
           display: flex;
           justify-content: space-between;
           height: 160px;
-          width: 107%;
+          width: 112%;
           z-index: -2;
         }
         .owl-dots { 
@@ -123,13 +123,34 @@
           position: relative;
           top: 0;
           display: inline-block;
-          border: 1px solid black;
-          width: 28px;
+          border: 1px solid #e5ddd5;
+          width: 48px;
           height: 160px;
           z-index: 21;
         }
         .owl-next {
           right: 0;
+          &::after{
+            content: "";
+            background-image: url("../../img/right-arrow.svg");
+            width: 12px;
+            height: 12px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+          }
+        }
+        .owl-prev {
+          
+          &::after{
+            content: "";
+            background-image: url("../../img/left-arrow.svg");
+            width: 12px;
+            height: 12px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+          }
         }
         .reviews__slide {
           width: 66%; 
