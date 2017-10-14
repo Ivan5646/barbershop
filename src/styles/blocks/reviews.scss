@@ -115,6 +115,11 @@
           position: relative;
           top: -9px;
           margin-top: 0;
+          z-index: 21;
+          background-color: #f8f5f2;
+          width: 16%;
+          margin-right: auto;
+          margin-left: auto;
         }
         .owl-prev, .owl-next {
           // background-repeat: no-repeat;
