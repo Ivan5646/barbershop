@@ -28,7 +28,8 @@ top slider, distance between lines in paragraphs = 16px
 news, distance between lines in paragraphs = 18px
 
 Problems
-
+- .owl-nav is on top regardless z-index (trying to make borders as in psd)
+https://github.com/OwlCarousel2/OwlCarousel2/issues/827
 
 stats
 - stat_teaser distribute space evenly vertically between parapgraphps
