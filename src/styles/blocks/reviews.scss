@@ -88,7 +88,11 @@
 
 @media only screen and (min-width: $tablet-width) {
   .reviews {
+    padding-bottom: 72px;
     .reviews__wrapper {
+      &::before, &::after {
+        display: none;
+      }
       .reviews__slider {
           // border: 1px solid blue;
           width: 78%;
