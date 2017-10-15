@@ -28,6 +28,19 @@ top slider, distance between lines in paragraphs = 16px
 news, distance between lines in paragraphs = 18px
 
 Problems
+- is .owl-nav centered on tablet? right: -6%; width: 112%; And on desktop? Can't measure.
+.owl-nav {
+  position: absolute;
+  top: -1px; 
+  right: -6%; //-51px;
+  border: 1px solid #e5ddd5;
+  display: flex;
+  justify-content: space-between;
+  height: 160px;
+  width: 112%;
+  z-index: -2;
+}
+
 - .owl-nav is on top regardless z-index (trying to make borders as in psd)
 https://github.com/OwlCarousel2/OwlCarousel2/issues/827
 
