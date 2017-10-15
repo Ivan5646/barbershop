@@ -185,6 +185,7 @@
 
 @media only screen and (min-width: $desktop-width) {
   .reviews {
+    padding-bottom: 94px; // 100px psd, 94px so that dots will be in the middle
     .reviews__wrapper {
       .reviews__slider {
         border: 1px solid #e5ddd5;
@@ -197,6 +198,9 @@
         .owl-prev, .owl-next {
           border: 1px solid #e5ddd5;
         }
+        .owl-dots { 
+          top: 38px; //42px psd
+        }
         .reviews__slide {
           width: 100%;
           .reviews__reviewer {
@@ -205,7 +209,8 @@
             background-position: center;
             height: 160px;
             width: 250px;
-            margin: 0 8% 0 0; // 68px margin-right psd
+            margin: 0 8% 0 -1px; // 68px margin-right psd
+            padding-left: 1px;
           }
           .reviews__text {
             margin-right: 8%;
