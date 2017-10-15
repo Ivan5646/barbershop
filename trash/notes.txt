@@ -41,9 +41,6 @@ Problems
   z-index: -2;
 }
 
-- .owl-nav is on top regardless z-index (trying to make borders as in psd)
-https://github.com/OwlCarousel2/OwlCarousel2/issues/827
-
 stats
 - stat_teaser distribute space evenly vertically between parapgraphps
 advertisement
@@ -77,6 +74,9 @@ border-left: 0; border-right: 0; or border-right-width: 0px;  border-left-width:
 
 
 Problems solved
+- .owl-nav is on top regardless z-index (trying to make borders as in psd)
+https://github.com/OwlCarousel2/OwlCarousel2/issues/827. Solved by giving negative z-index
+
 -svg is not disaplying in chrome and opera, but displaying in firefox (.owl-prev, .owl-next) arrows
 https://css-tricks.com/forums/topic/svg-css-background-image-not-showing-in-chrome/
 Try opening the svg in a plain text editor and change this;

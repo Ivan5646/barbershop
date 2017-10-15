@@ -188,6 +188,7 @@
     .reviews__wrapper {
       .reviews__slider {
         border: 1px solid #e5ddd5;
+        width: 66%;
         .owl-nav {
           right: -7%;
           width: 114%;
@@ -195,6 +196,9 @@
         }
         .owl-prev, .owl-next {
           border: 1px solid #e5ddd5;
+        }
+        .reviews__slide {
+          width: 58%;
         }
       }
     }
