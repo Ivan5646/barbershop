@@ -132,13 +132,14 @@
           position: relative;
           top: 0;
           display: inline-block;
-          border: 1px solid #e5ddd5;
+          //border: 1px solid #e5ddd5;
           width: 48px;
           height: 160px;
           z-index: 21;
         }
         .owl-next {
           right: 0;
+          border-left: 1px solid #e5ddd5;
           &::after{
             content: "";
             background-image: url("../../img/right-arrow.svg");
@@ -150,7 +151,7 @@
           }
         }
         .owl-prev {
-          
+          border-right: 1px solid #e5ddd5;
           &::after{
             content: "";
             background-image: url("../../img/left-arrow.svg");
@@ -176,6 +177,24 @@
             background-size: 156%; // 134px same effect
             background-position: 50% 50%;
           }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: $desktop-width) {
+  .reviews {
+    .reviews__wrapper {
+      .reviews__slider {
+        border: 1px solid #e5ddd5;
+        .owl-nav {
+          right: -7%;
+          width: 114%;
+          border: none;
+        }
+        .owl-prev, .owl-next {
+          border: 1px solid #e5ddd5;
         }
       }
     }
