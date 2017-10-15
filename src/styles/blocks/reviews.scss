@@ -198,7 +198,18 @@
           border: 1px solid #e5ddd5;
         }
         .reviews__slide {
-          width: 58%;
+          width: 100%;
+          .reviews__reviewer {
+            border-radius: 0;
+            background-size: contain;
+            background-position: center;
+            height: 160px;
+            width: 250px;
+            margin: 0 8% 0 0; // 68px margin-right psd
+          }
+          .reviews__text {
+            margin-right: 8%;
+          }
         }
       }
     }
