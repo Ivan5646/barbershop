@@ -139,7 +139,8 @@
 @media only screen and (min-width: $desktop-width) {
   .footer {
     .footer__wrapper {
-      width: 71%;
+      width: 80%;
+      justify-content: center;
       flex-wrap: nowrap;
       .footer__address {
         width: 30%;
