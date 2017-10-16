@@ -135,3 +135,27 @@
     }
   }
 }
+
+@media only screen and (min-width: $desktop-width) {
+  .footer {
+    .footer__wrapper {
+      width: 71%;
+      flex-wrap: nowrap;
+      .footer__address {
+        width: 30%;
+      }
+      .footer__social {
+        order: 1;
+        width: 30%;
+        td {
+          height: 50px;
+          width: 50px;
+        }
+      }
+      .footer__company {
+        order: 2;
+        width: 30%;
+      }
+    }
+  }
+}

@@ -23,6 +23,8 @@ desktop from 1200px
 
 640px - stats width, 128px - spacing, 64px from each side
 
+desktop 120px margins on both sides. width is calculated to 1106px (82%) for each block
+
 PSD measurements
 top slider, distance between lines in paragraphs = 16px
 news, distance between lines in paragraphs = 18px
@@ -121,8 +123,8 @@ Solved https://gist.github.com/Ivan5646/c8abf1765a04b99a4842f5ba929c2c03
 
 
 Scope
-- triangle advertisement sharper
 - footer tablet and desktop
+- triangle advertisement sharper
 - big screens whitespace on the sides
 - firefox mozilla whitespace margin
 - сконфигурировать сборку галпом правильно всех стилей, скриптов, подгружать через нод модули?
