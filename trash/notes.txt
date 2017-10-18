@@ -23,7 +23,7 @@ desktop from 1200px
 
 640px - stats width, 128px - spacing, 64px from each side
 
-desktop 120px margins on both sides. 134.82px margins for my browswer, width 1079px for in browser. 
+desktop 120px margins on both sides. 134.82px margins for my browswer, width 1079px for my browser. 
 
 my width in browswe 1349px, psd width 1200px. 1.1241 ratio
 

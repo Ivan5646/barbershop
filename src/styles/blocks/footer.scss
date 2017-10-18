@@ -37,28 +37,28 @@
         margin-bottom: 26px;
       }
     }
-    .footer__social { 
+    .footer__social { // a tag
+      display: table;
       border-collapse: collapse;
-      // border: 1px solid rgba(255, 255, 255, 0.3);
       width: 100%;
       table-layout: fixed;
       margin-bottom: 34px;
-      td {
+      height: 50px;
+      .footer__soc-link {
+        display: table-cell;
         border: 1px solid rgba(255, 255, 255, 0.3);
         text-align: center;
-        height: 100px;
-      }
-      a {
+        height: 98px;
         color: #fff;
         background-repeat: no-repeat;
-        display: inline-block;
         margin: 4%;
+        vertical-align: middle;
+      }
+      .footer__vk, .footer__fb, .footer__inst {
+        margin: auto;
       }
       .footer__vk {
-        // color: #fff;
         background-image: url("../../img/vk-mob.png");
-        // background-repeat: no-repeat;
-        background-size: 100%;
         width: 23px;
         height: 26px;
       }
@@ -72,7 +72,7 @@
         width: 36px;
         height: 36px;
       }
-    }
+    } //.footer__social 
     .footer__company  {
         > p {
           text-align: center;
