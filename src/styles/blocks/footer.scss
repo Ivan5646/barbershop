@@ -161,11 +161,12 @@
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 0;
-        .footer__friendship {
-          
+        // height: 100%;
+        .footer__friendship_show {
+          width: 100%;
         }
         .footer__soc-link {
-          height: 80%;
+          // height: 80px;
           width: 20%;
           .footer__vk, .footer__fb, .footer__inst {
             background-size: 56%;
