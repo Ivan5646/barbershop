@@ -62,5 +62,13 @@ $(document).ready(function(){
     navText: [] //remove "prev next" text
   });
 
+  // remove class with display:none, to work with the div as a flex-item
+  $(window).resize(function() {
+    if ($(window).width() < 1200) {
+      $(".footer__friendship_show").removeClass("footer__friendship");
+      console.log("footer__friendship removed");
+    }
+  });
+
 });
 console.log("hello from test.js");

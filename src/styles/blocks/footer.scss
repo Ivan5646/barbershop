@@ -44,6 +44,9 @@
       table-layout: fixed;
       margin-bottom: 34px;
       height: 50px;
+      .footer__friendship {
+        display: none;
+      }
       .footer__soc-link {
         display: table-cell;
         border: 1px solid rgba(255, 255, 255, 0.3);
@@ -124,6 +127,9 @@
       .footer__social {
         width: 100%;
         order: 2;
+        .footer__friendship {
+          display: none;
+        }
       }
       .footer__company {
         width: 30%;
@@ -142,26 +148,39 @@
       width: 80%;
       justify-content: center;
       flex-wrap: nowrap;
+      align-items: flex-end;
       .footer__address {
         width: 30%;
+        .footer__phone {
+          margin-bottom: 0 !important;
+        }
       }
       .footer__social {
         order: 1;
         width: 30%;
-        // table-layout: fixed;
-        border-collapse: separate;
-        border-spacing: 15px 0;
-        td {
-          height: 70px;
-          width: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+        .footer__friendship {
+          
         }
-        .footer__vk, .footer__fb, .footer__inst {
-          background-size: 80%;
+        .footer__soc-link {
+          height: 80%;
+          width: 20%;
+          .footer__vk, .footer__fb, .footer__inst {
+            background-size: 56%;
+            background-repeat: no-repeat;
+            background-position: center;
+          }
         }
+
       }
       .footer__company {
         order: 2;
         width: 30%;
+        p:last-child {
+          margin-bottom: 0;
+        }
       }
     }
   }
