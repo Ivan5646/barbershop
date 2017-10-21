@@ -159,6 +159,7 @@
         order: 1;
         width: 30%;
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
         margin-bottom: 0;
         height: 100%;
@@ -167,8 +168,8 @@
           text-align: center;
         }
         .footer__soc-link {
-          height: 65px;
-          width: 20%;
+          height: 54px; // should be 54px
+          width: 16.7%;
           margin: 0 1%; // 6px between cells in psd
           // position: relative; // for absolute centering images
           .footer__vk, .footer__fb, .footer__inst {
