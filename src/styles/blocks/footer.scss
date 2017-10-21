@@ -164,15 +164,20 @@
         height: 100%;
         .footer__friendship_show {
           width: 100%;
+          text-align: center;
         }
         .footer__soc-link {
           height: 65px;
           width: 20%;
           margin: 0 1%; // 6px between cells in psd
+          // position: relative; // for absolute centering images
           .footer__vk, .footer__fb, .footer__inst {
             background-size: 56%;
             background-repeat: no-repeat;
             background-position: center;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);  // vertical-align
           }
         }
 
