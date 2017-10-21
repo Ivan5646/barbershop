@@ -67,6 +67,20 @@ $(document).ready(function(){
     $(".footer__friendship_show").removeClass("footer__friendship");
     console.log("footer__friendship removed");
   }
+  // on resize to do the same
+  $(window).resize(function() {
+    if ($(window).width() < 1200) {
+      $(".footer__social p:first-child").css("display", "none");
+      console.log("footer__friendship_show display none");
+    } else if ($(window).width() > 1200) {
+      $(".footer__social p:first-child").css("display", "");
+      console.log("footer__friendship_show dispaly cleared");
+    }
+  });
 
+  /* 1) if window width > 1200px then remove initial class with disaply none so flext item will work 
+     2) if resized to less than 1200px set footer__friendship_show display: none;
+     3) if resized to more than 1200px remove property of footer__friendship_show display: none;
+  */
 
 });
