@@ -161,13 +161,14 @@
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 0;
-        // height: 100%;
+        height: 100%;
         .footer__friendship_show {
           width: 100%;
         }
         .footer__soc-link {
-          // height: 80px;
+          height: 65px;
           width: 20%;
+          margin: 0 1%; // 6px between cells in psd
           .footer__vk, .footer__fb, .footer__inst {
             background-size: 56%;
             background-repeat: no-repeat;
