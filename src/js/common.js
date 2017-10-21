@@ -65,6 +65,7 @@ $(document).ready(function(){
   // remove class with display:none, to work with the div as a flex-item
   if ($(window).width() > 1200) {
     $(".footer__friendship_show").removeClass("footer__friendship");
+    $(".footer__social p:first-child").css("display", "");
     console.log("footer__friendship removed");
   }
   // on resize to do the same
@@ -73,7 +74,7 @@ $(document).ready(function(){
       $(".footer__social p:first-child").css("display", "none");
       console.log("footer__friendship_show display none");
     } else if ($(window).width() > 1200) {
-      $(".footer__social p:first-child").css("display", "");
+      $(".footer__social p:first-child").css("display", "block");
       console.log("footer__friendship_show dispaly cleared");
     }
   });
