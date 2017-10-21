@@ -32,6 +32,8 @@ top slider, distance between lines in paragraphs = 16px
 news, distance between lines in paragraphs = 18px
 
 Problems
+- .footer__address contents shoudl extend to the right as in psd
+
 - is .owl-nav centered on tablet? right: -6%; width: 112%; And on desktop? Can't measure.
 .owl-nav {
   position: absolute;
