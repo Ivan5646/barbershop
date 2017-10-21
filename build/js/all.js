@@ -66,16 +66,16 @@ $(document).ready(function(){
   if ($(window).width() > 1200) {
     $(".footer__friendship_show").removeClass("footer__friendship");
     $(".footer__social p:first-child").css("display", "");
-    console.log("footer__friendship removed");
+    //console.log("footer__friendship removed");
   }
   // on resize to do the same
   $(window).resize(function() {
     if ($(window).width() < 1200) {
       $(".footer__social p:first-child").css("display", "none");
-      console.log("footer__friendship_show display none");
+      //console.log("footer__friendship_show display none");
     } else if ($(window).width() > 1200) {
       $(".footer__social p:first-child").css("display", "block");
-      console.log("footer__friendship_show dispaly cleared");
+      //console.log("footer__friendship_show dispaly cleared");
     }
   });
 
