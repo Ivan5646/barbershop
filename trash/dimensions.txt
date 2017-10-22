@@ -10,5 +10,7 @@ tablet 42px
 mobile 36px
 
 tablet centering, width 
-.header .header__menu ul 72%
+.header .header__menu ul 82%
 footer__wrapper 80%
+
+64px both sides with tablet width 768px
