@@ -107,7 +107,7 @@
 
 @media only screen and (min-width: 768px) {
   .news {
-    padding-top: 80px;
+    padding-top: 92px; // 52px psd
     .news__wrapper {
       display: flex;
       flex-direction: row;
@@ -144,6 +144,7 @@
 
 @media only screen and (min-width: $desktop-width) {
   .news {
+    padding-top: 123px; //63px from the stats triangle in psd
     .news__wrapper {
       width: 80%;
       .news__block {
