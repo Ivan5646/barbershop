@@ -84,7 +84,6 @@
       // max-width: 890px; // not responsive with width prop when decreasing viewport's width
       background-color: #826550;
       li {
-        justify-content: center; // has no effect
         margin-right: auto;
         border-bottom: 1px solid #71543f;
         // outline: 1px solid #886e5b;
@@ -159,16 +158,15 @@
       ul {
         width: 82%;
         display: flex;
-        justify-content: space-between !important;
+        justify-content: space-between;
         flex-direction: row; 
         align-items: center;
-        justify-content: center;
         position: static;
         height: 72px;
         list-style-type: none;
         text-transform: uppercase;
         margin: 0 auto;
-        max-width: 890px; // not responsive with width prop when decreasing viewport's width
+        //max-width: 890px; // not responsive with width prop when decreasing viewport's width
         background-color: transparent;
         li {
           padding: 0;
@@ -227,7 +225,8 @@
     }
     .header__menu { 
       ul {
-        width: 80%;
+        width: 78%; // 80% to fit all other divs
+        justify-content: space-around; // does not work
         li:last-child {
           .header__login {
             display: inline;
