@@ -9,4 +9,6 @@ desktop 63px
 tablet 42px
 mobile 36px
 
-40
+tablet centering, width 
+.header .header__menu ul 72%
+footer__wrapper 80%
