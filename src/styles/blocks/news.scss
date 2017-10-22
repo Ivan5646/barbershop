@@ -153,6 +153,9 @@
     padding-top: 123px; //63px from the stats triangle in psd
     .news__wrapper {
       width: 80%;
+      > h2 {
+        margin-left: 5.5%; // text-align: center;
+      }
       .news__block {
         flex-basis: 30%;
       }
