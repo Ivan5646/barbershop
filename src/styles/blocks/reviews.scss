@@ -5,7 +5,7 @@
   background-color: #f8f5f2;
   .reviews__wrapper {
     width: 95%;
-    margin: 0 auto;
+    margin: 0 auto 12px; // 53px as in psd
     > h2 {
       margin: 13px auto 24px; // taken from psd, top 30px, bottom 38px
       text-align: center;
@@ -90,6 +90,7 @@
   .reviews {
     padding-bottom: 72px;
     .reviews__wrapper {
+      margin: 0 auto;
       &::before, &::after {
         display: none;
       }
@@ -187,6 +188,7 @@
   .reviews {
     padding-bottom: 94px; // 100px psd, 94px so that dots will be in the middle
     .reviews__wrapper {
+      margin: 0 auto 4px; //46px bottom psd
       .reviews__slider {
         border: 1px solid #e5ddd5;
         width: 74%; //to make 120px on each side
