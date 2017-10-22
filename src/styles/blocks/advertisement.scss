@@ -12,7 +12,7 @@
     bottom: -36px;
     left: 0px;
     background-color: #242424;
-    background: linear-gradient(to bottom left, #242424, #242423 50%,  transparent 51%);
+    background: linear-gradient(to bottom left, #242424, #242423 49%,  transparent 51%);
     z-index: -1;
     width: 50%; //50.2%;
     height: 36px; 
@@ -23,7 +23,7 @@
     bottom: -36px;
     right: 0px;
     background-color: #242424;
-    background: linear-gradient(to bottom right, #242424, #242423 50%,  transparent 51%);
+    background: linear-gradient(to bottom right, #242424, #242423 49%,  transparent 51%);
     z-index: -1;
     width: 50%; //50.2%;
     height: 36px;
@@ -66,7 +66,7 @@
   } //end of advertisement__slider
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: $tablet-width) {
   .advertisement {
     padding-top: 304px;
     margin-top: -314px;
@@ -76,7 +76,7 @@
       bottom: -42px;
       left: 0px;
       background-color: #242424;
-      background: linear-gradient(to bottom left, #242424, #242423 50%,  transparent 51%);
+      background: linear-gradient(to bottom left, #242424, #242423 49%,  transparent 51%);
       z-index: -1;
       width: 50%; //50.2%;
       height: 42px; 
@@ -87,7 +87,7 @@
       bottom: -42px;
       right: 0px;
       background-color: #242424;
-      background: linear-gradient(to bottom right, #242424, #242423 50%,  transparent 51%);
+      background: linear-gradient(to bottom right, #242424, #242423 49%,  transparent 51%);
       z-index: -1;
       width: 50%; //50.2%;
       height: 42px;
