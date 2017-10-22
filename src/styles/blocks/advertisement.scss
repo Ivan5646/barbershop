@@ -45,24 +45,24 @@
   &::after {  
     content: "";
     position: absolute;
-    bottom: -36px;
+    bottom: -63px; //-36px;
     left: 0px;
     background-color: #242424;
-    background: linear-gradient(to bottom left, #242424, #242423 51%,  transparent 52%);
+    background: linear-gradient(to bottom left, #242424, #242423 50%,  transparent 51%);
     z-index: -1;
-    width: 50.2%;
-    height: 37px;
+    width: 50%; //50.2%;
+    height: 63px; //37px; // 63px height of the tirangle in psd
   }
   &::before {
     content: "";
     position: absolute;
-    bottom: -36px;
+    bottom: -63px; //-36px;
     right: 0px;
     background-color: #242424;
-    background: linear-gradient(to bottom right, #242424, #242423 51%,  transparent 52%);
+    background: linear-gradient(to bottom right, #242424, #242423 50%,  transparent 51%);
     z-index: -1;
-    width: 50.2%;
-    height: 37px;
+    width: 50%; //50.2%;
+    height: 63px; //37px;
   }
 }
 
