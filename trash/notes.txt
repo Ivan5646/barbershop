@@ -127,6 +127,7 @@ Solved https://gist.github.com/Ivan5646/c8abf1765a04b99a4842f5ba929c2c03
 
 
 Scope
+- vertiacl rythm done to the hr to reviews header
 - footer tablet and desktop
 - triangle advertisement sharper
 - big screens whitespace on the sides
