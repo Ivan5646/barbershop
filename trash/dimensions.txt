@@ -3,3 +3,8 @@ total width 960px
 each item 320px
 
 45px
+
+ad traingle height
+desktop 63px 
+tablet 42px
+mobile 36px

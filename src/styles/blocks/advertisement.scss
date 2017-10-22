@@ -6,6 +6,28 @@
   font-size: 16pt;
   position: relative;
   z-index: 2;
+  &::after {  
+    content: "";
+    position: absolute;
+    bottom: -36px;
+    left: 0px;
+    background-color: #242424;
+    background: linear-gradient(to bottom left, #242424, #242423 50%,  transparent 51%);
+    z-index: -1;
+    width: 50%; //50.2%;
+    height: 36px; 
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -36px;
+    right: 0px;
+    background-color: #242424;
+    background: linear-gradient(to bottom right, #242424, #242423 50%,  transparent 51%);
+    z-index: -1;
+    width: 50%; //50.2%;
+    height: 36px;
+  }
   > p {
     text-align: center;
     color: #666666;
@@ -42,34 +64,34 @@
       }      
     }
   } //end of advertisement__slider
-  &::after {  
-    content: "";
-    position: absolute;
-    bottom: -63px; //-36px;
-    left: 0px;
-    background-color: #242424;
-    background: linear-gradient(to bottom left, #242424, #242423 50%,  transparent 51%);
-    z-index: -1;
-    width: 50%; //50.2%;
-    height: 63px; //37px; // 63px height of the tirangle in psd
-  }
-  &::before {
-    content: "";
-    position: absolute;
-    bottom: -63px; //-36px;
-    right: 0px;
-    background-color: #242424;
-    background: linear-gradient(to bottom right, #242424, #242423 50%,  transparent 51%);
-    z-index: -1;
-    width: 50%; //50.2%;
-    height: 63px; //37px;
-  }
 }
 
 @media only screen and (min-width: 768px) {
   .advertisement {
     padding-top: 304px;
     margin-top: -314px;
+    &::after {  
+      content: "";
+      position: absolute;
+      bottom: -42px;
+      left: 0px;
+      background-color: #242424;
+      background: linear-gradient(to bottom left, #242424, #242423 50%,  transparent 51%);
+      z-index: -1;
+      width: 50%; //50.2%;
+      height: 42px; 
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: -42px;
+      right: 0px;
+      background-color: #242424;
+      background: linear-gradient(to bottom right, #242424, #242423 50%,  transparent 51%);
+      z-index: -1;
+      width: 50%; //50.2%;
+      height: 42px;
+    }
     >p {
       display: none;
     }
@@ -143,6 +165,28 @@
         border-bottom: none;
         border-right: 1px solid #4a4a4a;
       } 
+    } // end of .advertisement_slider
+      &::after {  
+      content: "";
+      position: absolute;
+      bottom: -63px; //-36px;
+      left: 0px;
+      background-color: #242424;
+      background: linear-gradient(to bottom left, #242424, #242423 50%,  transparent 51%);
+      z-index: -1;
+      width: 50%; //50.2%;
+      height: 63px; //37px; // 63px height of the tirangle in psd
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: -63px; //-36px;
+      right: 0px;
+      background-color: #242424;
+      background: linear-gradient(to bottom right, #242424, #242423 50%,  transparent 51%);
+      z-index: -1;
+      width: 50%; //50.2%;
+      height: 63px; //37px;
     }
   }
 }
