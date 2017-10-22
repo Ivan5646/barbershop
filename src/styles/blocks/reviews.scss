@@ -148,7 +148,9 @@
             height: 12px;
             position: absolute;
             top: 50%;
+            transform: translateY(-50%);
             left: 50%;
+            transform: translateX(-50%);
           }
         }
         .owl-prev {
@@ -160,7 +162,9 @@
             height: 12px;
             position: absolute;
             top: 50%;
+            transform: translateY(-50%);
             left: 50%;
+            transform: translateX(-50%);
           }
         }
         .reviews__slide {
