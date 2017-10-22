@@ -101,7 +101,8 @@
   } // end of news wrapper
 
   hr {
-    color: #e5ddd5;
+    color: #e5ddd5; 
+    margin-bottom: 13px; 
   }
 }
 
@@ -138,6 +139,9 @@
         margin-bottom: 70px;
         // align-self: flex-end;
       }
+    }
+    hr {
+      margin-bottom: 26px; //psd 46px
     }
   }
 }
