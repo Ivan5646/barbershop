@@ -152,6 +152,7 @@
         // justify-content: space-around;
         // align-items: center;
         display: table-cell;
+        vertical-align: top;
         p {
           width: 80% !important;
           margin: 0 auto !important;
@@ -160,8 +161,10 @@
           vertical-align: top;
         }
         p:first-child {
-          position: relative;
-          top: -27px;
+          // position: relative;
+          // top: -27px;
+          margin-top: 27px !important;
+          margin-bottom: 20px !important;
           padding-top: 0;
           padding-bottom: 0;
           padding-left: 0;

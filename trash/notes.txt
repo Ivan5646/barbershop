@@ -32,6 +32,8 @@ top slider, distance between lines in paragraphs = 16px
 news, distance between lines in paragraphs = 18px
 
 Problems
+- firefox redundant whitesapce in a table cell (statt__teaser)
+
 - blurry font when bold in Chrome, Opera, but in Firefox is fine
 https://stackoverflow.com/questions/27385126/chrome-font-appears-blurry ?
 
