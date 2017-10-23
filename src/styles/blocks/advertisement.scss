@@ -68,11 +68,11 @@
 
 @media only screen and (min-width: $tablet-width) {
   .advertisement {
-    padding-top: 372px;
+    padding-top: 320px;
     margin-top: -314px;
     @-moz-document url-prefix() {
       margin-top: -378px;
-      padding-top: 436px;
+      padding-top: 384px;
     }
     &::after {  
       content: "";
@@ -139,6 +139,12 @@
   .advertisement {
     z-index: 1;
     // padding-bottom: 30px;
+    padding-top: 372px;
+    margin-top: -314px;
+    @-moz-document url-prefix() {
+      margin-top: -378px;
+      padding-top: 436px;
+    }
     &::after {  
       content: "";
       position: absolute;
