@@ -101,8 +101,13 @@
   } // end of news wrapper
 
   hr {
-    color: #e5ddd5; 
+   // border-color: #ece6df; //
     margin-bottom: 11px; 
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #e5ddd5;
+    margin: 1em 0;
+    padding: 0;
   }
 }
 
