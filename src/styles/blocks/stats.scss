@@ -103,8 +103,8 @@
         &::before {
           content: "";
           position: absolute;
-          top: 14px;
-          left: -29px;
+          top: 22px;
+          left: -15px;
           border: 15px solid transparent;
           border-bottom-color: #fff;
           transform: rotate(45deg);
@@ -167,7 +167,7 @@
           padding-left: 0;
         }
         p:nth-child(2) {
-          padding-bottom: 14%;
+          padding-bottom: 12%;
           // min-height: 200px;
         }
       } 
