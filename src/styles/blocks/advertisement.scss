@@ -70,6 +70,9 @@
   .advertisement {
     padding-top: 304px;
     margin-top: -314px;
+    @-moz-document url-prefix() {
+      margin-top: -378px;
+    }
     &::after {  
       content: "";
       position: absolute;
