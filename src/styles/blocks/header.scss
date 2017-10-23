@@ -229,7 +229,7 @@
     }
     .header__menu { 
       ul {
-        width: 78%; // 80% to fit all other divs
+        width: 72%; // 80% to fit all other divs
         justify-content: space-around; // does not work
         li:last-child {
           .header__login {
