@@ -68,10 +68,11 @@
 
 @media only screen and (min-width: $tablet-width) {
   .advertisement {
-    padding-top: 304px;
+    padding-top: 372px;
     margin-top: -314px;
     @-moz-document url-prefix() {
       margin-top: -378px;
+      padding-top: 436px;
     }
     &::after {  
       content: "";
