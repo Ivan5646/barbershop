@@ -32,6 +32,11 @@
       // margin-left: 42%;
       margin: 0 auto;
     }
+    @-moz-document url-prefix() {
+      p {
+        left: 47%;
+      }
+    }
     .header__hamburger {
       height: 50px;
       width: 12%;
