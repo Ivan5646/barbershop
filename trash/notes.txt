@@ -32,6 +32,9 @@ top slider, distance between lines in paragraphs = 16px
 news, distance between lines in paragraphs = 18px
 
 Problems
+- blurry font when bold in Chrome, Opera, but in Firefox is fine
+https://stackoverflow.com/questions/27385126/chrome-font-appears-blurry ?
+
 - .footer__address contents shoudl extend to the right as in psd
 
 - is .owl-nav centered on tablet? right: -6%; width: 112%; And on desktop? Can't measure.
