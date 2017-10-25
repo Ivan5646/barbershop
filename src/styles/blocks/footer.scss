@@ -181,12 +181,6 @@
           width: 16.7%;
           margin: 0 1%; // 6px between cells in psd
           // position: relative; // for absolute centering images
-          @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-            .footer__vk, .footer__fb, .footer__inst {
-              background-size: 88%;
-              transform: none;
-            }
-          }
           .footer__vk, .footer__fb, .footer__inst {
             background-size: 56%;
             background-repeat: no-repeat;
@@ -194,15 +188,6 @@
             position: relative;
             top: 50%;
             transform: translateY(-50%);  // vertical-align
-            // @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-            //   IE10+ CSS styles go here
-            //   background-size: 88%;
-            //   transform: none;
-            // }
-            @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-              /* IE10+ CSS styles go here */
-              padding-right: 29px;
-            }
           }
         }
       }
@@ -219,4 +204,17 @@
       }
     }
   }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .footer{
+    .footer__wrapper {
+      .footer__social {
+        .footer__vk, .footer__fb, .footer__inst {
+          transform: none !important;
+        }
+      }
+    }
+  }
+
 }
