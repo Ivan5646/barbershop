@@ -78,6 +78,8 @@
       font-size: 30px;
     }
     ul {
+      position: relative;
+      z-index: 2; // to disaplay in IE
       flex-direction: column; // has no effect
       position: absolute;
       left: 51px;

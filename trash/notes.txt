@@ -32,7 +32,7 @@ top slider, distance between lines in paragraphs = 16px
 news, distance between lines in paragraphs = 18px
 
 Problems
-- firefox redundant whitesapce in a table cell (statt__teaser)
+- IE display
 
 - blurry font when bold in Chrome, Opera, but in Firefox is fine
 https://stackoverflow.com/questions/27385126/chrome-font-appears-blurry ?
@@ -85,6 +85,8 @@ border-left: 0; border-right: 0; or border-right-width: 0px;  border-left-width:
 
 
 Problems solved
+- firefox redundant whitesapce in a table cell (statt__teaser). Solved by vertical-align:top
+
 - .owl-nav is on top regardless z-index (trying to make borders as in psd)
 https://github.com/OwlCarousel2/OwlCarousel2/issues/827. Solved by giving negative z-index
 
