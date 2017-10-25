@@ -32,8 +32,6 @@ top slider, distance between lines in paragraphs = 16px
 news, distance between lines in paragraphs = 18px
 
 Problems
--@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {} suddenly not working in footer.css
-
 - blurry font when bold in Chrome, Opera, but in Firefox is fine
 https://stackoverflow.com/questions/27385126/chrome-font-appears-blurry ?
 
@@ -85,6 +83,9 @@ border-left: 0; border-right: 0; or border-right-width: 0px;  border-left-width:
 
 
 Problems solved
+-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {} suddenly not working in footer.css
+because it was inside another media query with width
+
 - firefox redundant whitesapce in a table cell (statt__teaser). Solved by vertical-align:top
 
 - .owl-nav is on top regardless z-index (trying to make borders as in psd)
