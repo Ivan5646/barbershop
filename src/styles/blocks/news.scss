@@ -20,11 +20,11 @@
         line-height: 22pt;
         display: flex;
         align-items: baseline;
+        // padding-top: 20px;
+        // padding-bottom: 20px;
         p {
-          // width: 75%;
-          // display: inline-block;
-          margin-top: 0;
-          // vertical-align: top;
+          margin-top: 0; // reset
+          margin-bottom: 0; // reset
         }
         .news__date {
           height: 50px;

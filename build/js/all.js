@@ -27,6 +27,7 @@ $(document).ready(function(){
     }
   })
 
+<<<<<<< HEAD
   // call the owl carousel. https://stackoverflow.com/questions/28251644/disabling-owl-carousel-at-a-specific-viewport-width
   var owl = $('.advertisement__slider'),
       owlOptions = {
@@ -84,5 +85,16 @@ $(document).ready(function(){
      3) if resized to more than 1200px remove property of footer__friendship_show display: none;
   */
 
+=======
+  // calling the owl-carousel plugin  a
+  $(".owl-carousel").owlCarousel({
+    items: 1,
+    dotData: true
+    // nav: true
+  });
+
+  var activeDot = $(".reviews_slider .owl-dots .owl-dot .owl-dot.active");
+  console.log(activeDot + " active dot");
+>>>>>>> master
 });
 console.log("hello from test.js");

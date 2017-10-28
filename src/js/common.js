@@ -56,6 +56,7 @@ $(document).ready(function(){
 
   $(".reviews__slider").owlCarousel({
     items: 1,
+<<<<<<< HEAD
     dotData: true,
     nav:true,
     // navText: ["<img src='../img/left-arrow.svg'>","<img src='../img/right-arrow.svg'>"]
