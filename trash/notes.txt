@@ -1,4 +1,5 @@
-﻿Preparation.
+﻿stats_remake2
+Preparation.
 
 Goal - create frontend website for portfolio to get the position of html css developer / frontend developer.
 Standards to meet:
