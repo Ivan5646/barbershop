@@ -115,7 +115,9 @@
       }
     } // end of ul 
   } // end of .header__menu
-
+  .header__tabletDesktopLogo {
+    display: none;
+  }
   .header__menu_shown {
     display: block; // flex?
   }
@@ -223,13 +225,22 @@
         display: none; 
       }
     } // end of .header__menu
-    .header__tabletLogo {
+    .header__tabletDesktopLogo {
+      display: block;
       margin-top: 40px;
-      background-image: url("../../img/tablet-logo.svg");  
-      background-repeat: no-repeat;
-      background-position: center;
-      width: 100%;
-      height: 100px;
+      // background-image: url("../../img/tablet-logo.svg");  
+      // background-repeat: no-repeat;
+      // background-position: center;
+      // width: 100%;
+      // height: 100px;
+      img {
+       display: block;
+       // margin: 0 auto; // why does not it center?
+       position: relative;
+       top: 50%;
+       transform: translateX(-50%); 
+       left: 50%;
+     }
     }
   } // end of .header
 }
@@ -241,9 +252,13 @@
     .header__top {
       margin-bottom: 18px; // 57px in psd
     }
-    .header__tabletLogo {
+    .header__tabletDesktopLogo {
       // background-image: url("../../img/desktop-logo.svg");  
       height: 150px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
     }
     .header__menu { 
       ul {
