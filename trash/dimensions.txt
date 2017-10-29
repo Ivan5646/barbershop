@@ -15,3 +15,5 @@ footer__wrapper
 64px both sides with tablet width 768px
 
 48 78
+
+width="370" height="153"

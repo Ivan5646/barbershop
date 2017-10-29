@@ -19,7 +19,10 @@
 </head>
 <body>
 <header class="header"> 
-  <div class="header__top"></div>
+  <div class="header__top">
+    <!-- <img src="img/mobile-logo.svg" srcset="img/tablet-logo.svg 768w, img/desktop-logo.svg 1200w" alt="logo"> -->
+    <img src="img/mobile-logo.svg" width="70%" height="70%" alt="logo">
+  </div>
   <div class="header__strip"> 
     <p>главная</p><div class="header__hamburger"></div>
   </div> 
@@ -34,7 +37,12 @@
       <li><a href="#"><i class="icon-login"></i><span class="header__login">Вход</span></a></li>
     </ul>
   </div>
-  <div class="header__tabletLogo"></div>
+  <div class="header__tabletDesktopLogo">
+    <picture>
+      <source media="(min-width: 1200px)" srcset="img/desktop-logo.svg">
+      <source media="(min-width: 768px)" srcset="img/tablet-logo.svg">
+    </picture>
+  </div>
 </header>
 
 <section class="stats"> <!-- stats remake start -->
